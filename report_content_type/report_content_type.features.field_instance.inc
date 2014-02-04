@@ -52,6 +52,48 @@ function report_content_type_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-report-field_report_base_url'
+  $field_instances['node-report-field_report_base_url'] = array(
+    'bundle' => 'report',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'taxonomy',
+        'settings' => array(
+          'semantic_field_format' => 0,
+        ),
+        'type' => 'taxonomy_term_reference_link',
+        'weight' => 18,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_report_base_url',
+    'label' => 'Base URL',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'taxonomy',
+      'settings' => array(
+        'autocomplete_path' => 'taxonomy/autocomplete',
+        'size' => 60,
+      ),
+      'type' => 'taxonomy_autocomplete',
+      'weight' => 6,
+    ),
+  );
+
   // Exported field_instance: 'node-report-field_report_browser_details'
   $field_instances['node-report-field_report_browser_details'] = array(
     'bundle' => 'report',
@@ -90,7 +132,7 @@ function report_content_type_field_default_field_instances() {
         'rows' => 5,
       ),
       'type' => 'text_textarea',
-      'weight' => 12,
+      'weight' => 14,
     ),
   );
 
@@ -132,7 +174,46 @@ function report_content_type_field_default_field_instances() {
         'rows' => 5,
       ),
       'type' => 'text_textarea',
-      'weight' => 9,
+      'weight' => 11,
+    ),
+  );
+
+  // Exported field_instance: 'node-report-field_report_closure_reason_tax'
+  $field_instances['node-report-field_report_closure_reason_tax'] = array(
+    'bundle' => 'report',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'taxonomy',
+        'settings' => array(
+          'semantic_field_format' => 0,
+        ),
+        'type' => 'taxonomy_term_reference_link',
+        'weight' => 19,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_report_closure_reason_tax',
+    'label' => 'Closure reason',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_select',
+      'weight' => 10,
     ),
   );
 
@@ -173,7 +254,7 @@ function report_content_type_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'email_textfield',
-      'weight' => 6,
+      'weight' => 7,
     ),
   );
 
@@ -215,7 +296,7 @@ function report_content_type_field_default_field_instances() {
         'rows' => 20,
       ),
       'type' => 'text_textarea',
-      'weight' => 19,
+      'weight' => 21,
     ),
   );
 
@@ -256,7 +337,7 @@ function report_content_type_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'email_textfield',
-      'weight' => 18,
+      'weight' => 20,
     ),
   );
 
@@ -298,7 +379,7 @@ function report_content_type_field_default_field_instances() {
         'rows' => 5,
       ),
       'type' => 'text_textarea',
-      'weight' => 20,
+      'weight' => 22,
     ),
   );
 
@@ -340,7 +421,7 @@ function report_content_type_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 21,
+      'weight' => 23,
     ),
   );
 
@@ -383,7 +464,7 @@ function report_content_type_field_default_field_instances() {
       'module' => 'options',
       'settings' => array(),
       'type' => 'options_select',
-      'weight' => 7,
+      'weight' => 8,
     ),
   );
 
@@ -425,7 +506,7 @@ function report_content_type_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 8,
+      'weight' => 9,
     ),
   );
 
@@ -467,7 +548,7 @@ function report_content_type_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 17,
+      'weight' => 19,
     ),
   );
 
@@ -509,7 +590,7 @@ function report_content_type_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 16,
+      'weight' => 18,
     ),
   );
 
@@ -551,7 +632,7 @@ function report_content_type_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 14,
+      'weight' => 16,
     ),
   );
 
@@ -593,7 +674,7 @@ function report_content_type_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 15,
+      'weight' => 17,
     ),
   );
 
@@ -681,7 +762,7 @@ function report_content_type_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 13,
+      'weight' => 15,
     ),
   );
 
@@ -724,7 +805,7 @@ function report_content_type_field_default_field_instances() {
       'module' => 'options',
       'settings' => array(),
       'type' => 'options_select',
-      'weight' => 10,
+      'weight' => 12,
     ),
   );
 
@@ -771,14 +852,16 @@ function report_content_type_field_default_field_instances() {
       'module' => 'number',
       'settings' => array(),
       'type' => 'number',
-      'weight' => 11,
+      'weight' => 13,
     ),
   );
 
   // Translatables
   // Included for use with string extractors like potx.
   t('Accessibility issue');
+  t('Base URL');
   t('Closure description');
+  t('Closure reason');
   t('Contact email');
   t('Copy and paste from the reported issue if this field is empty');
   t('For yourself and other volunteers who might view this report in future.');
