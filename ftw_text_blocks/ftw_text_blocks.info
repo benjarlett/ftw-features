@@ -1,0 +1,15 @@
+name = FTW text blocks
+description = What used to be held in the global settings node
+core = 7.x
+package = FTW features
+version = 7.x-1.0-beta1
+project = ftw_text_blocks
+dependencies[] = block
+dependencies[] = fe_block
+dependencies[] = features
+dependencies[] = filter
+features[fe_block_boxes][] = nag_email
+features[fe_block_settings][] = block-nag_email
+features[features_api][] = api:2
+features[filter][] = filtered_html
+project path = sites/all/modules/ftw_features
