@@ -450,7 +450,7 @@ A report listed as http:// has come from a Tweet, so the URL field has yet to be
   $export['intro_dashboard'] = $fe_block_boxes;
 
   $fe_block_boxes = new stdClass();
-  $fe_block_boxes->info = 'Intro: delete account';
+  $fe_block_boxes->info = 'Intro: Delete account';
   $fe_block_boxes->format = 'filtered_html';
   $fe_block_boxes->machine_name = 'intro_delete_account';
   $fe_block_boxes->body = 'You are just about to delete your account. By doing this you will re-list any reports still currently assigned to you. It would be very useful to leave a comment explaining your progress with the reports so that the person accepting the report can continue processing it with knowledge of its progress. Thank you for your support.';
@@ -504,6 +504,22 @@ A report listed as http:// has come from a Tweet, so the URL field has yet to be
   $fe_block_boxes->body = 'This page is here to help you discover if another volunteer is processing the same issue that you have in your report.<br><a href="#stepbystep" class="help-jump"><span class="help-link">&raquo;Step-by-step help</span></a>';
 
   $export['intro_simmilar_reports'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'Intro: Upgrade reporter';
+  $fe_block_boxes->format = 'filtered_html';
+  $fe_block_boxes->machine_name = 'intro_upgrade_reporter';
+  $fe_block_boxes->body = 'Thank you for becoming a reporter. In order to make this account work effectivly for both of us we need you to complete the following form.';
+
+  $export['intro_upgrade_reporter'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'Intro: Upgrade volunteer';
+  $fe_block_boxes->format = 'filtered_html';
+  $fe_block_boxes->machine_name = 'intro_upgrade_volunteer';
+  $fe_block_boxes->body = 'Thank you for becoming a volunteer. In order to make this account work effectivly for both of us we need you to complete the following form.';
+
+  $export['intro_upgrade_volunteer'] = $fe_block_boxes;
 
   $fe_block_boxes = new stdClass();
   $fe_block_boxes->info = 'Intro: User registration';

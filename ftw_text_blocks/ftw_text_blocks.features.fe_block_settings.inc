@@ -1042,7 +1042,7 @@ function ftw_text_blocks_default_fe_block_settings() {
     'machine_name' => 'intro_delete_account',
     'module' => 'block',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'deleteaccount',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -1052,8 +1052,8 @@ function ftw_text_blocks_default_fe_block_settings() {
         'weight' => 0,
       ),
       'ftw' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'intro_content',
+        'status' => 1,
         'theme' => 'ftw',
         'weight' => 0,
       ),
@@ -1065,7 +1065,7 @@ function ftw_text_blocks_default_fe_block_settings() {
       ),
     ),
     'title' => '',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['block-intro_downgrade_volunteer'] = array(
@@ -1074,7 +1074,7 @@ function ftw_text_blocks_default_fe_block_settings() {
     'machine_name' => 'intro_downgrade_volunteer',
     'module' => 'block',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'manageroles/volunteer/remove',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -1084,8 +1084,8 @@ function ftw_text_blocks_default_fe_block_settings() {
         'weight' => 0,
       ),
       'ftw' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'intro_content',
+        'status' => 1,
         'theme' => 'ftw',
         'weight' => 0,
       ),
@@ -1097,7 +1097,7 @@ function ftw_text_blocks_default_fe_block_settings() {
       ),
     ),
     'title' => '',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['block-intro_internal_email'] = array(
@@ -1248,6 +1248,70 @@ function ftw_text_blocks_default_fe_block_settings() {
         'status' => 1,
         'theme' => 'ftw',
         'weight' => -23,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 1,
+  );
+
+  $export['block-intro_upgrade_reporter'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'intro_upgrade_reporter',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => 'manageroles/reporter/add',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'ftw' => array(
+        'region' => 'intro_content',
+        'status' => 1,
+        'theme' => 'ftw',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 1,
+  );
+
+  $export['block-intro_upgrade_volunteer'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'intro_upgrade_volunteer',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => 'manageroles/volunteer/add',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'ftw' => array(
+        'region' => 'intro_content',
+        'status' => 1,
+        'theme' => 'ftw',
+        'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
