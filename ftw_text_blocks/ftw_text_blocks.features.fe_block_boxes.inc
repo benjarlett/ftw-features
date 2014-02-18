@@ -146,7 +146,7 @@ Fix the Web team.';
 
   $fe_block_boxes = new stdClass();
   $fe_block_boxes->info = 'Email: Subject of email from volunteer to volunteer';
-  $fe_block_boxes->format = 'filtered_html';
+  $fe_block_boxes->format = 'plain_text';
   $fe_block_boxes->machine_name = 'email_volunteer_subject';
   $fe_block_boxes->body = 'Fix the Web: A question from another volunteer';
 
@@ -189,6 +189,46 @@ Websites are required to be accessible in many countries by national policies. T
 Fix the Web is an innovative project to crowd-source e-accessibility. It is led by Citizens Online and funded by Nominet Trust, with support from partners such as AbilityNet, Hanona, Nomensa, Bloor Research, RNIB and Coolfields Consulting. Initial information about e-accessibility issues collected from disabled people may be brief (some comes via Twitter). Further information can be sought if you are willing to work through the volunteer. Occasionally your website may not have a problem because the disabled person made an error; we hope you will bear with us if that happens. If you feel any part of the process is not satisfactory, please raise this with the volunteer or contact the Fix the Web admin team ( admin@fixtheweb.net )';
 
   $export['email_web_owner'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'Email: Not an accessibility issue email subject';
+  $fe_block_boxes->format = 'plain_text';
+  $fe_block_boxes->machine_name = 'esubj_not_an_acessibility_email';
+  $fe_block_boxes->body = 'Warning, you may be blocked from reporting to Fix the Web';
+
+  $export['esubj_not_an_acessibility_email'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'Email: Not an accessibility issue email 2 subject';
+  $fe_block_boxes->format = 'plain_text';
+  $fe_block_boxes->machine_name = 'esubj_not_an_acessibility_email2';
+  $fe_block_boxes->body = 'Sorry, But you have been blocked from reporting to Fix the Web';
+
+  $export['esubj_not_an_acessibility_email2'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'Email: Closure email subject';
+  $fe_block_boxes->format = 'plain_text';
+  $fe_block_boxes->machine_name = 'esubj_report_closure_to_reporter';
+  $fe_block_boxes->body = 'Fix the Web: Your report has been dealt with';
+
+  $export['esubj_report_closure_to_reporter'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'Email: Spam subject';
+  $fe_block_boxes->format = 'plain_text';
+  $fe_block_boxes->machine_name = 'esubj_spam_body';
+  $fe_block_boxes->body = 'Sorry, But you have been blocked from reporting to Fix the Web';
+
+  $export['esubj_spam_body'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'Email: Nag text sent to the volunteer subject';
+  $fe_block_boxes->format = 'plain_text';
+  $fe_block_boxes->machine_name = 'esubj_volunteer_nag_email';
+  $fe_block_boxes->body = 'Fix the web dashboard nudge';
+
+  $export['esubj_volunteer_nag_email'] = $fe_block_boxes;
 
   $fe_block_boxes = new stdClass();
   $fe_block_boxes->info = 'Help: Accept report';

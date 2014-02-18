@@ -524,6 +524,166 @@ function ftw_text_blocks_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['block-esubj_not_an_acessibility_email'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'esubj_not_an_acessibility_email',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'ftw' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'ftw',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['block-esubj_not_an_acessibility_email2'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'esubj_not_an_acessibility_email2',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'ftw' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'ftw',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['block-esubj_report_closure_to_reporter'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'esubj_report_closure_to_reporter',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'ftw' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'ftw',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['block-esubj_spam_body'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'esubj_spam_body',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'ftw' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'ftw',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['block-esubj_volunteer_nag_email'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'esubj_volunteer_nag_email',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'ftw' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'ftw',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['block-help_accept_report'] = array(
     'cache' => -1,
     'custom' => 0,
