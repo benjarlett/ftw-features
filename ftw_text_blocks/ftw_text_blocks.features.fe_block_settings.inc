@@ -1164,6 +1164,38 @@ function ftw_text_blocks_default_fe_block_settings() {
     'visibility' => 1,
   );
 
+  $export['block-intro_contact_form'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'intro_contact_form',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => 'contact',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'ftw' => array(
+        'region' => 'intro_content',
+        'status' => 1,
+        'theme' => 'ftw',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 1,
+  );
+
   $export['block-intro_dashboard'] = array(
     'cache' => -1,
     'custom' => 0,
