@@ -17,11 +17,14 @@ function site_pages_default_fe_block_boxes() {
   $fe_block_boxes->body = '<div id="front-intro-block">
 	<div class="love third">
 			<h2>Love it,</h2>
-			<img src="/sites/default/files/stephen_fry_2.png" alt="Stephen Fry" class="stephenfry">
+			<img src="/sites/default/files/stephen_fry_3.png" alt="Stephen Fry" class="stephenfry">
 			<div class="third-inner">
-			<span class="quote"><blockquote class="fryquote">...This campaign gets to the very heart of the problem – it’s pure genius!</blockquote>
-			<p class="frycredit">- stephen fry</p>
-			<p><a class="frymore" href="stephen-fry" title="read more of stephen fry\'s comments about fix the web">read more<span class="offscreen"> of stephen fry\'s comments about fix the web</span></a></span><p>
+			<a  href="stephen-fry" title="read more of stephen fry\'s comments about fix the web">
+                        <div class="quote">
+                               <blockquote class="fryquote">This campaign gets to the very heart of the problem – it’s pure genius!</blockquote>
+			       <span class="frycredit"> Stephen Fry</span>
+			      <span class="frymore offscreen"> - read more of stephen fry\'s comments about fix the web</span>
+                      </div></a>
 		</div>
 	</div>
 
@@ -36,7 +39,9 @@ function site_pages_default_fe_block_boxes() {
 	<div class="fix third">
 			<h2>Fix it!</h2>
 		<div class="third-inner">
-			<p>Poor standards of web accessibility means disabled people can find using websites and software difficult if they have been poorly designed. Fix the web wants to change this. Disabled people report problems, volunteers push for improvements. You can <a href="reporting-websites">report an issue in any of four ways</a></p>
+<h3><a href="http://en.wikipedia.org/wiki/Web_accessibility">Web accessibility</a></h3>
+			<p>Poorly designed websites can exclude some disabled people.</p>
+<p>If disabled people report problems and volunteers push for improvements, <br /><span class="red">Fix the Web crowdsources change<span class="offscreen">.</span></span></p>
 		</div>
 	</div>
 </div>';
