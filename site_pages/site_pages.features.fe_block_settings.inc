@@ -76,38 +76,6 @@ function site_pages_default_fe_block_settings() {
     'visibility' => 0,
   );
 
-  $export['faq-faq_categories'] = array(
-    'cache' => 1,
-    'custom' => 0,
-    'delta' => 'faq_categories',
-    'module' => 'faq',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ftw' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ftw',
-        'weight' => -9,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
   $export['logintoboggan-logintoboggan_logged_in'] = array(
     'cache' => -1,
     'custom' => 0,
@@ -393,70 +361,6 @@ reporter/*',
         'status' => 1,
         'theme' => 'seven',
         'weight' => 10,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['views-faq-faq_random'] = array(
-    'cache' => -1,
-    'custom' => 0,
-    'delta' => 'faq-faq_random',
-    'module' => 'views',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ftw' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ftw',
-        'weight' => -6,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['views-faq-faq_recent'] = array(
-    'cache' => -1,
-    'custom' => 0,
-    'delta' => 'faq-faq_recent',
-    'module' => 'views',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ftw' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'ftw',
-        'weight' => -5,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
       ),
     ),
     'title' => '',
