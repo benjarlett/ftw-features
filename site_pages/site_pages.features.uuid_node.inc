@@ -137,6 +137,100 @@ Any queries relating to Citizens Online collection or use of personal informatio
 );
   $nodes[] = array(
   'uid' => 1,
+  'title' => 'Report bugs',
+  'log' => '',
+  'status' => 1,
+  'comment' => 1,
+  'promote' => 0,
+  'sticky' => 0,
+  'vuuid' => 'd30b71e9-cab9-47be-b9ae-e09eece91a10',
+  'type' => 'page',
+  'language' => 'und',
+  'created' => 1392849034,
+  'tnid' => 0,
+  'translate' => 0,
+  'uuid' => '14e6d495-770b-4d7d-ae3b-ecc19ddf31ab',
+  'revision_uid' => 1,
+  'body' => array(
+    'und' => array(
+      0 => array(
+        'value' => 'We\'re very interested to hear about any bugs. Please <a href="contact">get in touch<a/> and let us know.
+
+Hello francis',
+        'summary' => '',
+        'format' => 'filtered_html',
+        'safe_value' => '<p>We\'re very interested to hear about any bugs. Please <a href="contact">get in touch</a><a></a> and let us know.</p>
+<p>Hello francis</p>
+',
+        'safe_summary' => '',
+      ),
+    ),
+  ),
+  'rdf_mapping' => array(
+    'rdftype' => array(
+      0 => 'foaf:Document',
+    ),
+    'title' => array(
+      'predicates' => array(
+        0 => 'dc:title',
+      ),
+    ),
+    'created' => array(
+      'predicates' => array(
+        0 => 'dc:date',
+        1 => 'dc:created',
+      ),
+      'datatype' => 'xsd:dateTime',
+      'callback' => 'date_iso8601',
+    ),
+    'changed' => array(
+      'predicates' => array(
+        0 => 'dc:modified',
+      ),
+      'datatype' => 'xsd:dateTime',
+      'callback' => 'date_iso8601',
+    ),
+    'body' => array(
+      'predicates' => array(
+        0 => 'content:encoded',
+      ),
+    ),
+    'uid' => array(
+      'predicates' => array(
+        0 => 'sioc:has_creator',
+      ),
+      'type' => 'rel',
+    ),
+    'name' => array(
+      'predicates' => array(
+        0 => 'foaf:name',
+      ),
+    ),
+    'comment_count' => array(
+      'predicates' => array(
+        0 => 'sioc:num_replies',
+      ),
+      'datatype' => 'xsd:integer',
+    ),
+    'last_activity' => array(
+      'predicates' => array(
+        0 => 'sioc:last_activity_date',
+      ),
+      'datatype' => 'xsd:dateTime',
+      'callback' => 'date_iso8601',
+    ),
+  ),
+  'cid' => 0,
+  'last_comment_name' => NULL,
+  'last_comment_uid' => 1,
+  'comment_count' => 0,
+  'name' => 'admin',
+  'picture' => 0,
+  'data' => 'a:2:{s:7:"contact";i:1;s:7:"overlay";i:1;}',
+  'date' => '2014-02-19 22:30:34 +0000',
+);
+  $nodes[] = array(
+  'uid' => 1,
   'title' => 'Stephen Fry comments on Fix the Web',
   'log' => '',
   'status' => 1,
