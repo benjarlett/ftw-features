@@ -154,10 +154,13 @@ Any queries relating to Citizens Online collection or use of personal informatio
   'body' => array(
     'und' => array(
       0 => array(
-        'value' => 'We\'re very interested to hear about any bugs. Please <a href="contact">get in touch<a/> and let us know.',
+        'value' => 'We\'re very interested to hear about any bugs. Please <a href="contact">get in touch<a/> and let us know.
+
+Hello Ben',
         'summary' => '',
         'format' => 'filtered_html',
         'safe_value' => '<p>We\'re very interested to hear about any bugs. Please <a href="contact">get in touch</a><a></a> and let us know.</p>
+<p>Hello Ben</p>
 ',
         'safe_summary' => '',
       ),
