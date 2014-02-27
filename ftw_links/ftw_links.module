@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Links feature.
+ */
+
+include_once 'ftw_links.features.inc';
