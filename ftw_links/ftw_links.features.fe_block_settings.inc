@@ -41,7 +41,7 @@ function ftw_links_default_fe_block_settings() {
       ),
     ),
     'title' => '',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['views-links-block_2'] = array(
@@ -73,7 +73,7 @@ function ftw_links_default_fe_block_settings() {
       ),
     ),
     'title' => '',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   return $export;
