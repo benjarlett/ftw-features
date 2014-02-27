@@ -12,6 +12,39 @@ function site_pages_default_fe_block_settings() {
 
   $export['version'] = '2.0';
 
+  $export['block-accessify_forum'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'accessify_forum',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '<front>
+dashboard/report/process/*',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'ftw' => array(
+        'region' => 'sidebar_second',
+        'status' => 1,
+        'theme' => 'ftw',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Discuss accessibility?',
+    'visibility' => 1,
+  );
+
   $export['block-front_intro'] = array(
     'cache' => -1,
     'custom' => 0,
@@ -73,6 +106,38 @@ function site_pages_default_fe_block_settings() {
       ),
     ),
     'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['block-twitter_facebook'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'twitter_facebook',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'ftw' => array(
+        'region' => 'header',
+        'status' => 1,
+        'theme' => 'ftw',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Social media links',
     'visibility' => 0,
   );
 

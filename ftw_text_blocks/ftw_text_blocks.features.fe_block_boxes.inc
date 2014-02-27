@@ -482,14 +482,6 @@ A report listed as http:// has come from a Tweet, so the URL field has yet to be
   $export['intro_close_report'] = $fe_block_boxes;
 
   $fe_block_boxes = new stdClass();
-  $fe_block_boxes->info = 'Intro: Contact form';
-  $fe_block_boxes->format = 'full_html';
-  $fe_block_boxes->machine_name = 'intro_contact_form';
-  $fe_block_boxes->body = '<p>If you are having trouble using our website, or have some suggestions for us, or have a funding idea to help sustain this project (or any other reason come to that), please get in touch using the contact form below:</p>';
-
-  $export['intro_contact_form'] = $fe_block_boxes;
-
-  $fe_block_boxes = new stdClass();
   $fe_block_boxes->info = 'Intro: Dashboard';
   $fe_block_boxes->format = 'filtered_html';
   $fe_block_boxes->machine_name = 'intro_dashboard';

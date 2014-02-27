@@ -11,6 +11,14 @@ function site_pages_default_fe_block_boxes() {
   $export = array();
 
   $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'Discuss accessibility';
+  $fe_block_boxes->format = 'filtered_html';
+  $fe_block_boxes->machine_name = 'accessify_forum';
+  $fe_block_boxes->body = 'Volunteering for Fix the Web? Want to talk to others about your reports? Rather than running our own forum we are recommending that you <a href="http://www.accessifyforum.com/forum20/">join our Fix the Web forum over on Accessify Forum</a>.';
+
+  $export['accessify_forum'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
   $fe_block_boxes->info = 'Front page intro block';
   $fe_block_boxes->format = 'php_code';
   $fe_block_boxes->machine_name = 'front_intro';
@@ -88,6 +96,22 @@ function site_pages_default_fe_block_boxes() {
 		</script>';
 
   $export['ftw_video_block'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'Intro: Contact form';
+  $fe_block_boxes->format = 'full_html';
+  $fe_block_boxes->machine_name = 'intro_contact_form';
+  $fe_block_boxes->body = '<p>If you are having trouble using our website, or have some suggestions for us, or have a funding idea to help sustain this project (or any other reason come to that), please get in touch using the contact form below:</p>';
+
+  $export['intro_contact_form'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'Twitter and Facebook links';
+  $fe_block_boxes->format = 'php_code';
+  $fe_block_boxes->machine_name = 'twitter_facebook';
+  $fe_block_boxes->body = '<div id="social-links"><a class="twitterbutton" title="Follow us on twitter" href="https://twitter.com/FixtheWeb" target="_blank"><img src="/sites/all/themes/ftw/images/displacement.png" alt="" class="for-css-replacement"><span class="button-label">Follow us on twitter</span></a><a class="facebookbutton" title="Find us on Facebook" href="https://www.facebook.com/fixtheweb" target="_blank"><img src="/sites/all/themes/ftw/images/displacement.png" alt="" class="for-css-replacement"><span class="button-label">Find us on facebook</span></a></div><div class="fb-like" data-href="http://www.fixtheweb.net" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>';
+
+  $export['twitter_facebook'] = $fe_block_boxes;
 
   return $export;
 }
