@@ -392,7 +392,7 @@ function ftw_text_blocks_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => 'Fix the Web: Your report has been dealt with',
+    'title' => 'Fix the Web: Your report has been closed',
     'visibility' => 0,
   );
 

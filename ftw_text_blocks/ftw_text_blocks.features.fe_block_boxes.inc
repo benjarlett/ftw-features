@@ -104,11 +104,13 @@ function ftw_text_blocks_default_fe_block_boxes() {
   $fe_block_boxes->machine_name = 'email_report_closure_to_reporter';
   $fe_block_boxes->body = 'Dear [name], 
 
-Your fixtheweb report for [url] has been closed. 
+Your Fix the Web report for [url] has been <strong>closed</strong>.
 
-Marked as: [closure reason] 
+The reason for the report being closed is: [closure reason].
 
-For more info see [link].';
+For more information about the report, go to [link]
+
+Thank you for your report and for helping to fix the web.';
 
   $export['email_report_closure_to_reporter'] = $fe_block_boxes;
 
