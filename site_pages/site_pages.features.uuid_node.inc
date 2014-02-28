@@ -234,7 +234,7 @@ Hello Ben',
   'title' => 'Stephen Fry comments on Fix the Web',
   'log' => '',
   'status' => 1,
-  'comment' => 0,
+  'comment' => 1,
   'promote' => 0,
   'sticky' => 0,
   'vuuid' => 'd55e41ef-7e87-4880-9337-211a29bd24fe',
@@ -248,10 +248,11 @@ Hello Ben',
   'body' => array(
     'und' => array(
       0 => array(
-        'value' => '<img src="/sites/default/files/stephen_fry.png" alt="Stephen Fry" align="right" style="margin:0 0 1em 1em;"><p style="font-size:1.2em; margin-top:1em;">“We all expect a few glitches when we go on line, but when it comes to accessibility for disabled and older people, the problem is colossal. Fix the Web is doing something about it in a positive and practical way – I urge you to get involved and help get this problem fixed.  This campaign gets to the very heart of the problem – it’s pure genius!” - <em>Stephen Fry</em></p><p>Photo taken by Claire Newman Williams</p>',
+        'value' => '<p><img style="margin: 0 0 1em 1em;" src="/sites/default/files/stephen_fry.png" alt="Stephen Fry" align="right"></p><p style="font-size: 1.2em; margin-top: 1em;">“We all expect a few glitches when we go on line, but when it comes to accessibility for disabled and older people, the problem is colossal. Fix the Web is doing something about it in a positive and practical way – I urge you to get involved and help get this problem fixed. This campaign gets to the very heart of the problem – it’s pure genius!” - <em>Stephen Fry</em></p><p>Photo taken by Claire Newman Williams</p>',
         'summary' => '<img src="/sites/default/files/stephen_fry.png" alt="Stephen Fry" align="right" style="margin:0 0 1em 1em;"><p style="font-size:1.2em; margin-top:1em;">“We all expect a few glitches when we go on line, but when it comes to accessibility for disabled and older people, the problem is colossal. Fix the Web is doing something about it in a positive and practical way – I urge you to get involved and help get this problem fixed.  This campaign gets to the very heart of the problem – it’s pure genius!” - <em>Stephen Fry</em></p><p>Photo taken by Claire Newman Williams</p>',
         'format' => 'full_html',
-        'safe_value' => '<p><img src="/sites/default/files/stephen_fry.png" alt="Stephen Fry" align="right" style="margin:0 0 1em 1em;" /><br /></p><p style="font-size:1.2em; margin-top:1em;">“We all expect a few glitches when we go on line, but when it comes to accessibility for disabled and older people, the problem is colossal. Fix the Web is doing something about it in a positive and practical way – I urge you to get involved and help get this problem fixed.  This campaign gets to the very heart of the problem – it’s pure genius!” - <em>Stephen Fry</em></p>
+        'safe_value' => '<p><img style="margin: 0 0 1em 1em;" src="/sites/default/files/stephen_fry.png" alt="Stephen Fry" align="right" /></p>
+<p style="font-size: 1.2em; margin-top: 1em;">“We all expect a few glitches when we go on line, but when it comes to accessibility for disabled and older people, the problem is colossal. Fix the Web is doing something about it in a positive and practical way – I urge you to get involved and help get this problem fixed. This campaign gets to the very heart of the problem – it’s pure genius!” - <em>Stephen Fry</em></p>
 <p>Photo taken by Claire Newman Williams</p>
 ',
         'safe_summary' => '<p><img src="/sites/default/files/stephen_fry.png" alt="Stephen Fry" align="right" style="margin:0 0 1em 1em;" /><br /></p><p style="font-size:1.2em; margin-top:1em;">“We all expect a few glitches when we go on line, but when it comes to accessibility for disabled and older people, the problem is colossal. Fix the Web is doing something about it in a positive and practical way – I urge you to get involved and help get this problem fixed.  This campaign gets to the very heart of the problem – it’s pure genius!” - <em>Stephen Fry</em></p>
@@ -315,7 +316,7 @@ Hello Ben',
     ),
   ),
   'cid' => 0,
-  'last_comment_name' => '',
+  'last_comment_name' => NULL,
   'last_comment_uid' => 1,
   'comment_count' => 0,
   'name' => 'admin',
@@ -2330,22 +2331,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'body' => array(
     'und' => array(
       0 => array(
-        'value' => '<div id="formbackground">
-<form action="/ftw-site/report" method="post" id="report-form" accept-charset="UTF-8"><div><input type="hidden" name="field_report_user_id" value="1">
-<input type="hidden" name="field_report_mail" value="admin@fixtheweb.net">
-<input type="hidden" name="details" value="">
-<input type="hidden" name="form_build_id" value="form-Kq-lPwTURkoYNDnvMX-UFbXJMzqDu4NtG6CUgtXJvXE">
-<input type="hidden" name="form_token" value="0I_1ML4h_LwVBaDl_xo_OEnHEFw8d-ucQXKvahrWQnk">
-<input type="hidden" name="form_id" value="report_form">
-<div class="form-item form-type-textfield form-item-field-report-url">
-  <label for="edit-field-report-url">Website address:</label>
- <input type="text" id="edit-field-report-url" name="field_report_url" value="http://" size="40" maxlength="128" class="form-text required">
-</div>
-<div class="form-item form-type-textarea form-item-field-report-body">
-  <label for="edit-field-report-body">Problem:</label>
- <div class="form-textarea-wrapper resizable textarea-processed resizable-textarea"><textarea id="edit-field-report-body" name="field_report_body" cols="32" rows="5" class="form-textarea required"></textarea><div class="grippie"></div></div>
-</div>
-<input type="submit" id="edit-submit" name="op" value="Submit" class="form-submit"></div></form></div>',
+        'value' => '<div id="formbackground"><?php print drupal_render(drupal_get_form(\'report_form\')); ?></div>',
         'summary' => '',
         'format' => 'php_code',
       ),
