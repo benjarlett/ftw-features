@@ -106,6 +106,22 @@ function site_pages_default_fe_block_boxes() {
   $export['intro_contact_form'] = $fe_block_boxes;
 
   $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'Report to twitter using hashtags';
+  $fe_block_boxes->format = 'php_code';
+  $fe_block_boxes->machine_name = 'tweet_report';
+  $fe_block_boxes->body = 'You can <a href="https://twitter.com/share?text=&hashtags=fixtheweb,fail" class="socialLinkTwitter twitter">report by tweeting #fixtheweb #fail <img src="/sites/default/files/external3.gif" alt="(external link)"></a>, pasting in the offending url and writing a short description of the problem.
+<script type="text/javascript">
+    $(\'.socialLinkTwitter\').click(function (e) {
+        e.preventDefault();
+        var sTwitterShare = $(this).attr(\'href\');
+        window.open(sTwitterShare,\'Share\',\'width=550,height=450\');
+    });
+</script>
+';
+
+  $export['tweet_report'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
   $fe_block_boxes->info = 'Twitter and Facebook links';
   $fe_block_boxes->format = 'php_code';
   $fe_block_boxes->machine_name = 'twitter_facebook';
