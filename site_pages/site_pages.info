@@ -37,7 +37,6 @@ features[fe_block_settings][] = superfish-2
 features[fe_block_settings][] = superfish-3
 features[fe_block_settings][] = superfish-4
 features[fe_block_settings][] = user-login
-features[fe_block_settings][] = views-tweets-block
 features[features_api][] = api:2
 features[field_base][] = body
 features[field_instance][] = node-page-body

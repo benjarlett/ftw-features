@@ -322,7 +322,7 @@ Fix the Web is an innovative project to crowd-source e-accessibility. It is led 
   $fe_block_boxes->info = 'Help: Closed reports';
   $fe_block_boxes->format = 'full_html';
   $fe_block_boxes->machine_name = 'help_dashboard_closed_reports';
-  $fe_block_boxes->body = '<p>Do you want a new one?:</p><ul><li><a href="dashboard/waiting">Browse new reports</a></li><li><a href="dashboard/get">Get a new report</a></li></ul><p>Here you can see a list of the current reports closed by to you. Click on the report title to process it. If you have no reports, or you would like a new one click <a href="dashboard/get">get a new report</a>. If you wish to view the reports yet to be assigned to volunteers click <a href="dashboard/waiting">browse new reports</a>.</p>';
+  $fe_block_boxes->body = '<p><span style="line-height: 1.538em;">Above is a list of the reports that <strong>you</strong> have closed.&nbsp;</span><span style="line-height: 1.538em;">To revisit a closed report, click on the report title.</span></p><p><span style="line-height: 1.538em;">To start work on a new report, click </span><a style="line-height: 1.538em;" href="get">get a new report</a>, or&nbsp;<a style="line-height: 1.538em;" href="waiting">browse the list of waiting reports</a><span style="line-height: 1.538em;">.</span></p>';
 
   $export['help_dashboard_closed_reports'] = $fe_block_boxes;
 

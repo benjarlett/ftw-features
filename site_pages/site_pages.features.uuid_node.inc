@@ -25,7 +25,7 @@ function site_pages_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '089a06e5-fc34-4f2a-8a89-8dfdb337e119',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(
     'und' => array(
       0 => array(
@@ -154,13 +154,10 @@ Any queries relating to Citizens Online collection or use of personal informatio
   'body' => array(
     'und' => array(
       0 => array(
-        'value' => 'We\'re very interested to hear about any bugs. Please <a href="contact">get in touch<a/> and let us know.
-
-Hello Ben',
+        'value' => 'We\'re very interested to hear about any bugs. Please <a href="contact">get in touch<a/> and let us know.',
         'summary' => '',
         'format' => 'filtered_html',
         'safe_value' => '<p>We\'re very interested to hear about any bugs. Please <a href="contact">get in touch</a><a></a> and let us know.</p>
-<p>Hello Ben</p>
 ',
         'safe_summary' => '',
       ),
@@ -244,7 +241,7 @@ Hello Ben',
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '28fcfeff-3a7c-4e4c-bd1e-0272ceb79b9c',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(
     'und' => array(
       0 => array(
@@ -339,7 +336,7 @@ Hello Ben',
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '3feb6736-b234-45e5-a194-0f324ce44175',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(
     'und' => array(
       0 => array(
@@ -467,7 +464,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '4487f6e4-efc2-4eba-ba1f-3134487d2e8e',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
@@ -547,7 +544,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '44e15c90-a63c-472d-ae65-913f1359494c',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(
     'und' => array(
       0 => array(
@@ -641,7 +638,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '51577025-7f14-4dbc-aaa5-2e0210641050',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(
     'und' => array(
       0 => array(
@@ -733,7 +730,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '57653056-2356-43b8-914c-621a20a82ce1',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(
     'und' => array(
       0 => array(
@@ -824,7 +821,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '59203c3f-99f7-4afb-b4cc-9e40b5c0e538',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
@@ -904,7 +901,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '7abbdf3c-dc2d-4fec-902f-4857b61b9066',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(
     'und' => array(
       0 => array(
@@ -996,7 +993,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '92a487df-56b2-4b3e-88c3-c6073482964b',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(
     'und' => array(
       0 => array(
@@ -1098,7 +1095,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '98644b16-d59d-4fa4-a577-aceb50a3f300',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(
     'und' => array(
       0 => array(
@@ -1208,7 +1205,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '99e418da-b392-4cc9-bee4-8fbeadc7b3b4',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(
     'und' => array(
       0 => array(
@@ -1336,19 +1333,18 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'body' => array(
     'und' => array(
       0 => array(
-        'value' => '<p><!--break--></p><h2>General Info</h2><p>In order to make this site accessible to as many people as possible, it has been built to certain web standards to ensure that people with disabilities find this website easy to use.</p><p>The World Wide Web Consortium (W3C) has published Web Content Accessibility Guidelines (WCAG) that helps Web developers make sites accessible. This site has been built and tested to meet <a href="http://www.w3.org/TR/WCAG20/#conformance">WCAG 2.0 AA standard</a> (<a href="http://www.hanona.org/FTWcertificate.html">view our certificate</a>).</p><p><img src="http://www.hanona.org/images/hanona_aa.png" alt="Hanona.org WCAG 2 Double A conformance logo"></p><p>Decorative images on the site may not have alternative text, but only if they do not carry any useful information, or duplicate nearby written text.<br> User tip: Each page starts with navigation, but there is a skip link at the top of each page that will take you to the main content.</p><h2>Spam Protection/Captcha decision</h2><p>After some research into various methods to keep spam out of our site we\'ve had to strike a balance between the experience for our volunteers and our reporters. It is well reported that using CAPTCHA (asking simple questions to prove that you are a human) is a very controversial issue. We spent a long time debating the various options, but there are many problems to overcome, even <a title="Can anyone use audio CAPTCHA" href="http://www.it-analysis.com/blogs/Abrahams_Accessibility/2010/10/can_anyone_use_audio_captcha.html">audio CAPTCHA has it\'s problems</a>. Ruling out audio CAPTCHA ruled out for us some of the popular suggestions that we\'ve been having (<a href="http://mollom.com/">Mollom</a>, <a href="http://www.google.com/recaptcha">reCAPTCHA</a>) and finally led us to using <a href="http://textcaptcha.com/">Rob Tuley\'s TextCAPTCHA service</a>. We have looked into the more accessible spam filtering methods (<a href="http://www.akismet.com">Askimet</a> and so on...) but have seen reports that real submissions may be missed.</p><p>We have enabled a refresh option on the captcha so you can refresh until you get one you are happy with. If you register with Fix the Web you will only ever need to do one captcha. If you use the toolbar or email route for reporting these are totally free from CAPTCHA. Twitter reporting is also CAPTCHA free, but if possible register first before using twitter, as this helps our volunteers who don\'t already have a twitter account to report back.</p><p>&nbsp;</p><h2><a name="access-keys"></a>Access Keys</h2><p>Fix the Web uses the following access keys:</p><dl id="accesskeys"><dt>1</dt><dd>Home</dd><dt>2</dt><dd>Accessibility</dd><dt>3</dt><dd>Sitemap</dd><dt>4</dt><dd>F.A.Q. (Frequently asked questions)</dd><dt>5</dt><dd>Links</dd><dt>6</dt><dd>Contact us</dd><dt>7</dt><dd>Volunteering</dd><dt>8</dt><dd>Reporting Websites</dd><dt>9</dt><dd>Jump to navigation</dd><dt>0</dt><dd>Jump to content</dd></dl><p>How access keys work depend upon the browser and operating system that you are using. Wikipedia has <a href="http://en.wikipedia.org/wiki/Access_key#Access_in_different_Browsers">a comprehensive guide on how to use access keys</a>. Opera users can get a list of access keys if they press SHIFT+ESC, though this list doesn\'t effectively indicate the Jump to links (0 and 9).</p><h2>Jump to/Skip links</h2><p>Skip links help users who prefer to use tabbed browsing to navigate the page more quickly. If you use tabbed browsing you will probably have already noticed that we have chosen to hide our skip links, these appear when you hit the tab key for the first time.</p><h2>Current access issues on our site</h2><p>We intend to add to this list as we become aware of problems with our site.</p><ul><li>We are aware of a few combinations of text zoom and screen width where the menu at the top of the page becomes obscured by the title of the page.</li></ul><h2>Comments</h2><p>If you have any comments about the accessibility of this site or if you would like to make a suggestion to help us make this site more accessible, contact the web Trust\'s administrator using our <a href="/contact?phpMyAdmin=Q%2CToaeky0Xc3ARH1eTUteltcjbf">contact page</a>.</p>',
+        'value' => '<p><!--break--></p><h2>General Info</h2><p>This site has been built to certain web standards i<span style="line-height: 1.538em;">n order to make this site accessible to as many people as possible.&nbsp;</span><span style="line-height: 1.538em;">Disabled people should find this website easy to use.</span></p><p>The World Wide Web Consortium (W3C) has published Web Content Accessibility Guidelines (WCAG) that helps Web developers make sites accessible. This site has been built and tested to meet <a href="http://www.w3.org/TR/WCAG20/#conformance">WCAG 2.0 AA standard</a> (<a href="http://www.hanona.org/FTWcertificate.html">view our certificate</a>).</p><p><img src="http://www.hanona.org/images/hanona_aa.png" alt="Hanona.org WCAG 2 Double A conformance logo"></p><p>Decorative images on the site may not have alternative text, but only if they do not carry any useful information, or if they duplicate nearby written text.<br> User tip: each page starts with navigation, but there is a skip link at the top of each page that will take you to the main content.</p><h2>Spam Protection/Captcha decision</h2><p>After some research into various methods to keep spam out of our site we\'ve had to strike a balance between the experience for our volunteers and our reporters. Using CAPTCHA (asking simple questions to prove that you are a human) is a very controversial issue. We spent a long time debating the various options, but there are many problems to overcome, even <a title="Can anyone use audio CAPTCHA" href="http://www.it-analysis.com/blogs/Abrahams_Accessibility/2010/10/can_anyone_use_audio_captcha.html">audio CAPTCHA has its problems</a>. Ruling out audio CAPTCHA ruled out for us some of the popular suggestions that we\'ve been having (<a href="http://mollom.com/">Mollom</a>, <a href="http://www.google.com/recaptcha">reCAPTCHA</a>) and finally led us to using <a href="http://textcaptcha.com/">Rob Tuley\'s TextCAPTCHA service</a>. We have looked into the more accessible spam filtering methods (<a href="http://www.akismet.com">Akismet</a> and so on...) but have seen reports that real submissions may be missed.</p><p>We have enabled a refresh option on the captcha so you can refresh until you get one you are happy with. If you register with Fix the Web you will only ever need to do one captcha. If you use the toolbar or email route for reporting these are totally free from CAPTCHA. Twitter reporting is also CAPTCHA free, but if possible register first before using twitter, as this helps our volunteers who don\'t already have a twitter account to report back.</p><h2><a name="access-keys"></a>Access Keys</h2><p>Fix the Web uses the following access keys:</p><dl id="accesskeys"><dt>1</dt><dd>Home</dd><dt>2</dt><dd>Accessibility</dd><dt>3</dt><dd>Sitemap</dd><dt>4</dt><dd>Frequently asked questions</dd><dt>5</dt><dd>Links</dd><dt>6</dt><dd>Contact us</dd><dt>7</dt><dd>Volunteering</dd><dt>8</dt><dd>Reporting websites</dd><dt>9</dt><dd>Jump to navigation</dd><dt>0</dt><dd>Jump to content</dd></dl><p>How these access keys work depends upon the browser and operating system that you are using. Wikipedia has <a href="http://en.wikipedia.org/wiki/Access_key#Access_in_different_Browsers">a comprehensive guide on how to use access keys</a>. Opera users can get a list of access keys by pressing SHIFT+ESC, though this list doesn\'t effectively indicate the Jump to links (0 and 9).</p><h2>Jump to/Skip links</h2><p>Skip links help users who prefer to use tabbed browsing to navigate the page more quickly. If you use tabbed browsing you will probably have already noticed that we have chosen to hide our skip links. These appear when you hit the tab key for the first time.</p><h2>Current access issues on our site</h2><p>We intend to add to this list as we become aware of problems with our site.</p><ul><li>We are aware of a few combinations of text zoom and screen width where the menu at the top of the page becomes obscured by the title of the page.</li></ul><h2>Comments</h2><p>If you have any comments about the accessibility of this site, or if you would like to make a suggestion to help us make this site more accessible, contact the web Trust\'s administrator using our <a href="/contact">contact page</a>.</p>',
         'summary' => '',
         'format' => 'full_html',
         'safe_value' => '<p><!--break--></p>
 <h2>General Info</h2>
-<p>In order to make this site accessible to as many people as possible, it has been built to certain web standards to ensure that people with disabilities find this website easy to use.</p>
+<p>This site has been built to certain web standards i<span style="line-height: 1.538em;">n order to make this site accessible to as many people as possible. </span><span style="line-height: 1.538em;">Disabled people should find this website easy to use.</span></p>
 <p>The World Wide Web Consortium (W3C) has published Web Content Accessibility Guidelines (WCAG) that helps Web developers make sites accessible. This site has been built and tested to meet <a href="http://www.w3.org/TR/WCAG20/#conformance">WCAG 2.0 AA standard</a> (<a href="http://www.hanona.org/FTWcertificate.html">view our certificate</a>).</p>
 <p><img src="http://www.hanona.org/images/hanona_aa.png" alt="Hanona.org WCAG 2 Double A conformance logo" /></p>
-<p>Decorative images on the site may not have alternative text, but only if they do not carry any useful information, or duplicate nearby written text.<br /> User tip: Each page starts with navigation, but there is a skip link at the top of each page that will take you to the main content.</p>
+<p>Decorative images on the site may not have alternative text, but only if they do not carry any useful information, or if they duplicate nearby written text.<br /> User tip: each page starts with navigation, but there is a skip link at the top of each page that will take you to the main content.</p>
 <h2>Spam Protection/Captcha decision</h2>
-<p>After some research into various methods to keep spam out of our site we\'ve had to strike a balance between the experience for our volunteers and our reporters. It is well reported that using CAPTCHA (asking simple questions to prove that you are a human) is a very controversial issue. We spent a long time debating the various options, but there are many problems to overcome, even <a title="Can anyone use audio CAPTCHA" href="http://www.it-analysis.com/blogs/Abrahams_Accessibility/2010/10/can_anyone_use_audio_captcha.html">audio CAPTCHA has it\'s problems</a>. Ruling out audio CAPTCHA ruled out for us some of the popular suggestions that we\'ve been having (<a href="http://mollom.com/">Mollom</a>, <a href="http://www.google.com/recaptcha">reCAPTCHA</a>) and finally led us to using <a href="http://textcaptcha.com/">Rob Tuley\'s TextCAPTCHA service</a>. We have looked into the more accessible spam filtering methods (<a href="http://www.akismet.com">Askimet</a> and so on...) but have seen reports that real submissions may be missed.</p>
+<p>After some research into various methods to keep spam out of our site we\'ve had to strike a balance between the experience for our volunteers and our reporters. Using CAPTCHA (asking simple questions to prove that you are a human) is a very controversial issue. We spent a long time debating the various options, but there are many problems to overcome, even <a title="Can anyone use audio CAPTCHA" href="http://www.it-analysis.com/blogs/Abrahams_Accessibility/2010/10/can_anyone_use_audio_captcha.html">audio CAPTCHA has its problems</a>. Ruling out audio CAPTCHA ruled out for us some of the popular suggestions that we\'ve been having (<a href="http://mollom.com/">Mollom</a>, <a href="http://www.google.com/recaptcha">reCAPTCHA</a>) and finally led us to using <a href="http://textcaptcha.com/">Rob Tuley\'s TextCAPTCHA service</a>. We have looked into the more accessible spam filtering methods (<a href="http://www.akismet.com">Akismet</a> and so on...) but have seen reports that real submissions may be missed.</p>
 <p>We have enabled a refresh option on the captcha so you can refresh until you get one you are happy with. If you register with Fix the Web you will only ever need to do one captcha. If you use the toolbar or email route for reporting these are totally free from CAPTCHA. Twitter reporting is also CAPTCHA free, but if possible register first before using twitter, as this helps our volunteers who don\'t already have a twitter account to report back.</p>
-<p> </p>
 <h2><a name="access-keys" id="access-keys"></a>Access Keys</h2>
 <p>Fix the Web uses the following access keys:</p>
 <dl id="accesskeys"><dt>1</dt>
@@ -1358,7 +1354,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
 <dt>3</dt>
 <dd>Sitemap</dd>
 <dt>4</dt>
-<dd>F.A.Q. (Frequently asked questions)</dd>
+<dd>Frequently asked questions</dd>
 <dt>5</dt>
 <dd>Links</dd>
 <dt>6</dt>
@@ -1366,19 +1362,19 @@ Internet Explorer 4.5: Access keys are not supported</p>
 <dt>7</dt>
 <dd>Volunteering</dd>
 <dt>8</dt>
-<dd>Reporting Websites</dd>
+<dd>Reporting websites</dd>
 <dt>9</dt>
 <dd>Jump to navigation</dd>
 <dt>0</dt>
 <dd>Jump to content</dd>
-</dl><p>How access keys work depend upon the browser and operating system that you are using. Wikipedia has <a href="http://en.wikipedia.org/wiki/Access_key#Access_in_different_Browsers">a comprehensive guide on how to use access keys</a>. Opera users can get a list of access keys if they press SHIFT+ESC, though this list doesn\'t effectively indicate the Jump to links (0 and 9).</p>
+</dl><p>How these access keys work depends upon the browser and operating system that you are using. Wikipedia has <a href="http://en.wikipedia.org/wiki/Access_key#Access_in_different_Browsers">a comprehensive guide on how to use access keys</a>. Opera users can get a list of access keys by pressing SHIFT+ESC, though this list doesn\'t effectively indicate the Jump to links (0 and 9).</p>
 <h2>Jump to/Skip links</h2>
-<p>Skip links help users who prefer to use tabbed browsing to navigate the page more quickly. If you use tabbed browsing you will probably have already noticed that we have chosen to hide our skip links, these appear when you hit the tab key for the first time.</p>
+<p>Skip links help users who prefer to use tabbed browsing to navigate the page more quickly. If you use tabbed browsing you will probably have already noticed that we have chosen to hide our skip links. These appear when you hit the tab key for the first time.</p>
 <h2>Current access issues on our site</h2>
 <p>We intend to add to this list as we become aware of problems with our site.</p>
 <ul><li>We are aware of a few combinations of text zoom and screen width where the menu at the top of the page becomes obscured by the title of the page.</li>
 </ul><h2>Comments</h2>
-<p>If you have any comments about the accessibility of this site or if you would like to make a suggestion to help us make this site more accessible, contact the web Trust\'s administrator using our <a href="/contact?phpMyAdmin=Q%2CToaeky0Xc3ARH1eTUteltcjbf">contact page</a>.</p>
+<p>If you have any comments about the accessibility of this site, or if you would like to make a suggestion to help us make this site more accessible, contact the web Trust\'s administrator using our <a href="/contact">contact page</a>.</p>
 ',
         'safe_summary' => '',
       ),
@@ -1462,7 +1458,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '9f590da5-3f15-4ea5-9abc-8dab7b892235',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(
     'und' => array(
       0 => array(
@@ -1554,7 +1550,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'ba94ab18-75d1-430b-9541-6dd8ef7e907f',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(
     'und' => array(
       0 => array(
@@ -1675,7 +1671,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'bc5ed865-b101-4f94-8a82-024bbffdb048',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(
     'und' => array(
       0 => array(
@@ -1775,7 +1771,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'c172319e-911d-4698-a0d4-845114af8926',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(
     'und' => array(
       0 => array(
@@ -1873,7 +1869,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'c1f1d9a8-9a89-4a29-9625-212ed7271b7a',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(
     'und' => array(
       0 => array(
@@ -2032,7 +2028,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'c92b2962-946a-4322-b68c-f3b9788d8d5e',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(
     'und' => array(
       0 => array(
@@ -2145,7 +2141,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'cbad1478-3d48-4d25-a6c5-2fd519cc644b',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(
     'und' => array(
       0 => array(
@@ -2236,7 +2232,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'ccffb642-b567-4f7b-8f98-1054aeb5177f',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(
     'und' => array(
       0 => array(
@@ -2327,7 +2323,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'db5f752c-3841-49a4-8191-fb7f16de1082',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(
     'und' => array(
       0 => array(
@@ -2415,7 +2411,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'f13a0eab-c338-448e-994a-c21a28a6bcaf',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(

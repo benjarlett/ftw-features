@@ -464,37 +464,5 @@ reporter/*',
     'visibility' => 0,
   );
 
-  $export['views-tweets-block'] = array(
-    'cache' => -1,
-    'custom' => 0,
-    'delta' => 'tweets-block',
-    'module' => 'views',
-    'node_types' => array(),
-    'pages' => '<front>',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'ftw' => array(
-        'region' => 'sidebar_first',
-        'status' => 1,
-        'theme' => 'ftw',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => 'Tweets',
-    'visibility' => 1,
-  );
-
   return $export;
 }
