@@ -5,7 +5,6 @@ package = FTW features
 version = 7.x-1.0-beta1
 project = ftw_case_studies
 dependencies[] = node
-dependencies[] = text
 __drupal_alter_by_ref[][node][case_study] = case_study
 features[features_api][] = api:2
 features[node][] = case_study
