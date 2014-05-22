@@ -236,27 +236,21 @@ Fix the Web is an innovative project to crowd-source e-accessibility. It is led 
   $fe_block_boxes->info = 'Help: Accept report';
   $fe_block_boxes->format = 'filtered_html';
   $fe_block_boxes->machine_name = 'help_accept_report';
-  $fe_block_boxes->body = '<h4 id="stepbystep">Step by step help</h4>
-<ol>
-  <li>Ensure this website is not illegal, discriminatory or pornographic. If it is any of these (our spam filter missed it) please <a href="#edit-close">close the report</a> and mark it as such.</li>
-  <li>If for some reason you don\'t want to process this report but it is still valid <a href="#edit-relist">re-list the report</a>.</li>
-  <li>If you wish to take the report on <a href="#edit-submit">accept this report</a></li>
-</ol>
-<span class="help-link"><a href="#content" alt="back to the top">&raquo;back</a></span>
+  $fe_block_boxes->body = '<span class="help-link"><a href="#content" alt="back to the top">&raquo; back</a></span>
 <dl>
   <lh>Help definitions</lh>
   <dt id="help-url">What is the website?</dt>
-  <dd>This is the website address of the report. If this field is empty then find out what it is from the report and enter it in here. <a href="#help-url-top" alt="back to the form"><span class="help-link">&raquo;back</span></a></dd>
+  <dd>This is the website address of the report. If this field is empty then find out what it is from the report and enter it in here. <a href="#help-url-top" alt="back to the form"><span class="help-link">&raquo; back to the form</span></a></dd>
   <dt  id="help-issue">What is the issue?</dt>
-  <dd>This is the report that was made by the reporter. You should not need to edit this at this stage in the process. <a href="?phpMyAdmin=Q%2CToaeky0Xc3ARH1eTUteltcjbf#edit-issue-wrapper"alt="back to the form"><span class="help-link">&raquo;back to the form</span></a></dd>
+  <dd>This is the report that was made by the reporter. You should not need to edit this at this stage in the process. <a href="?phpMyAdmin=Q%2CToaeky0Xc3ARH1eTUteltcjbf#edit-issue-wrapper"alt="back to the form"><span class="help-link">&raquo; back to the form</span></a></dd>
   <dt  id="help-comment">Status Comment</dt>
-  <dd>This is a note for your self which appears next to the website address in your dashboard to help you easily track the progress of your reports. <a href="?phpMyAdmin=Q%2CToaeky0Xc3ARH1eTUteltcjbf#edit-comment-wrapper"alt="back to the form"><span class="help-link">&raquo;back</span></a></dd>
+  <dd>This is a note for yourself that appears next to the website address in your dashboard to help you track the progress of your reports. <a href="?phpMyAdmin=Q%2CToaeky0Xc3ARH1eTUteltcjbf#edit-comment-wrapper"alt="back to the form"><span class="help-link">&raquo; back to the form</span></a></dd>
   <dt  id="help-notes">Notes</dt>
-  <dd>This is a place to put notes for your self and other volunteers who may view this report in the future should you wish to use it. <a href="?phpMyAdmin=Q%2CToaeky0Xc3ARH1eTUteltcjbf#edit-notes-wrapper"alt="back to the form"><span class="help-link">&raquo;back</span></a></dd>
+  <dd>This is a place to put notes for yourself and any other volunteers who may view this report in the future, should you wish to use it. <a href="?phpMyAdmin=Q%2CToaeky0Xc3ARH1eTUteltcjbf#edit-notes-wrapper"alt="back to the form"><span class="help-link">&raquo; back to the form</span></a></dd>
   <dt id="help-close">Close the report</dt>
-  <dd>A button to close the report, you will be directed to another form where you will need to indicate why this report needs closing. <a href="?phpMyAdmin=Q%2CToaeky0Xc3ARH1eTUteltcjbf#edit-close"alt="back to the form"><span class="help-link">&raquo;back to the form</span></a></dd>
-  <dt id="help-relist">Relist the report</dt>
-  <dd>A button to allow you to put this report back into the "Browse new reports" list should you decide not to accept this report for any reason.<a href="?phpMyAdmin=Q%2CToaeky0Xc3ARH1eTUteltcjbf#edit-relist"alt="back to the form"><span class="help-link">&raquo;back</span></a></dd>
+  <dd>A button to close the report, you will be directed to another form where you will need to indicate why this report needs closing. <a href="?phpMyAdmin=Q%2CToaeky0Xc3ARH1eTUteltcjbf#edit-close"alt="back to the form"><span class="help-link">&raquo; back to the form</span></a></dd>
+  <dt id="help-relist">Re-list the report</dt>
+  <dd>A button to allow you to put this report back into the "Browse new reports" list, should you decide not to accept this report for any reason.<a href="?phpMyAdmin=Q%2CToaeky0Xc3ARH1eTUteltcjbf#edit-relist"alt="back to the form"><span class="help-link">&raquo; back to the form</span></a></dd>
 </dl>';
 
   $export['help_accept_report'] = $fe_block_boxes;
@@ -406,14 +400,9 @@ Fix the Web is an innovative project to crowd-source e-accessibility. It is led 
   $fe_block_boxes->info = 'Help: Relist report';
   $fe_block_boxes->format = 'filtered_html';
   $fe_block_boxes->machine_name = 'help_relist_report';
-  $fe_block_boxes->body = '<h4 id="stepbystep">Step by step help</h4>
-<ol>
-<li>On this page you are given the opportunity to add notes about the report before relisting it.</li>
-</ul>
-<dl>
-  <lh>Help definitions</lh>
-  <dt id="help-url">What is the website?</dt>
-  <dd>This is the website address of the report. If this field is empty then find out what it is from the report and enter it in here. <a href="#edit-url-wrapper" alt="back to the form"><span class="help-link">&raquo;back</span></a></dd>';
+  $fe_block_boxes->body = '<h3 id="stepbystep">Step by step help</h3>
+<p>On this page you are given the opportunity to add notes about the report before relisting it.
+<a href="#edit-url-wrapper" alt="back to the form"><span class="help-link">&raquo; back</span></a></p>';
 
   $export['help_relist_report'] = $fe_block_boxes;
 
@@ -454,8 +443,10 @@ We feel it best that only one volunteer is in touch with a web owner at one time
   $fe_block_boxes->info = 'Help: Waiting reports';
   $fe_block_boxes->format = 'filtered_html';
   $fe_block_boxes->machine_name = 'help_waiting_reports';
-  $fe_block_boxes->body = 'Here is a list of reports that are waiting to be processed. Click on the report to view followed by saving the form to assign the report to yourself.
-A report listed as http:// has come from a Tweet, so the URL field has yet to be entered.';
+  $fe_block_boxes->body = 'This is a list of reports that are waiting to be assigned to volunteers.
+To assign a report to yourself: click on it to view more details, then save the subsequent form.
+
+Please note, if a report gives only "http://" as the address, this means it has come via a twitter report and the URL will need to be entered by the volunteer.';
 
   $export['help_waiting_reports'] = $fe_block_boxes;
 
@@ -463,7 +454,15 @@ A report listed as http:// has come from a Tweet, so the URL field has yet to be
   $fe_block_boxes->info = 'Intro: Accept report';
   $fe_block_boxes->format = 'filtered_html';
   $fe_block_boxes->machine_name = 'intro_accept_report';
-  $fe_block_boxes->body = 'Follow the instructions to accept a report. <br><a href="#stepbystep" class="help-jump"><span class="help-link">&raquo;Step-by-step help</span></a>';
+  $fe_block_boxes->body = '<p>You have three options with this report:</p>
+<ol>
+  <li>If the report concerns an illegal, discriminatory or pornographic (etc) website, then please do not proceed. Instead, <a href="#edit-close">close the report</a> and mark it as closed (spam, or not an accessibility issue).</li>
+  <li>If the report is a valid fix the web issue, but for any reason you don\'t want to accept it at this time, please <a href="#edit-relist">re-list the report</a> so it can be picked up by someone else.</li>
+  <li>Or, if you wish to accept the report and work on fixing the issue, then <a href="#edit-submit">accept the report</a>.</li>
+</ol>
+
+
+<p><a href="#stepbystep" class="help-jump"><span class="help-link">Further help with the report form &raquo;</span></a></p>';
 
   $export['intro_accept_report'] = $fe_block_boxes;
 
@@ -535,7 +534,8 @@ A report listed as http:// has come from a Tweet, so the URL field has yet to be
   $fe_block_boxes->info = 'Intro: Relist report';
   $fe_block_boxes->format = 'filtered_html';
   $fe_block_boxes->machine_name = 'intro_relist_report';
-  $fe_block_boxes->body = 'Are you sure you want to put this report back on the list for other volunteers to receive?<br><a href="#stepbystep" class="help-jump"><span class="help-link">&raquo;Step-by-step help</span></a>';
+  $fe_block_boxes->body = '<p>If the report you have selected is a valid fix the web issue, but for any reason you are not ready to accept the report yourself, then please use the form on this page to <a href="#edit-submit" alt="re-list the report">re-list the report</a> so that another volunteer can take it on.</p>
+<p><a href="#stepbystep" class="help-jump"><span class="help-link">&raquo;Step-by-step help</span></a>></p>';
 
   $export['intro_relist_report'] = $fe_block_boxes;
 

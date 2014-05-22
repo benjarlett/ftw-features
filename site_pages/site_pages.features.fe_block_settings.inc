@@ -41,7 +41,7 @@ dashboard/report/process/*',
         'weight' => 0,
       ),
     ),
-    'title' => 'Discuss accessibility?',
+    'title' => 'Support forum',
     'visibility' => 1,
   );
 
