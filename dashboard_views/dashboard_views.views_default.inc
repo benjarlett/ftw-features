@@ -212,7 +212,7 @@ function dashboard_views_views_default_views() {
   /* Display: Waiting reports */
   $handler = $view->new_display('page', 'Waiting reports', 'page_3');
   $handler->display->display_options['defaults']['title'] = FALSE;
-  $handler->display->display_options['title'] = 'My waiting reports';
+  $handler->display->display_options['title'] = 'Waiting reports';
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
   /* Filter criterion: Content: Published */

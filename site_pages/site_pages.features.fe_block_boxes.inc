@@ -109,7 +109,7 @@ function site_pages_default_fe_block_boxes() {
   $fe_block_boxes->info = 'Report to twitter using hashtags';
   $fe_block_boxes->format = 'php_code';
   $fe_block_boxes->machine_name = 'tweet_report';
-  $fe_block_boxes->body = 'You can <a href="https://twitter.com/share?text=&hashtags=fixtheweb,fail" class="socialLinkTwitter twitter">report by tweeting #fixtheweb #fail <img src="/sites/default/files/external3.gif" alt="(external link)"></a>, pasting in the offending url and writing a short description of the problem.
+  $fe_block_boxes->body = 'You can <a href="https://twitter.com/share?text=&hashtags=fixtheweb,fail" class="socialLinkTwitter twitter">report by tweeting #fixtheweb #fail <img src="/sites/default/files/external3.gif" alt="(external link)"></a>; make sure you include the <abbr>URL</abbr> and briefly describe the problem!
 <script type="text/javascript">
     $(\'.socialLinkTwitter\').click(function (e) {
         e.preventDefault();

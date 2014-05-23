@@ -128,21 +128,25 @@ Thank you for your report and for helping to fix the web.';
   $fe_block_boxes->machine_name = 'email_volunteer_nag_email';
   $fe_block_boxes->body = 'Dear [name]
 
-We are receiving genuine reports into Fix the Web that need a volunteer to attend to. We also have a spam issue and quite a few reports that aren\'t relevant. We are fixing the issues as best we can, please close such reports as spam or other, as appropriate. Please can you make sure you chase up on old reports at least three times before closing them.
+We are receiving genuine reports into Fix the Web that need a volunteer to attend to, so here is your nudge to remind you to go and have a look at the status of yours!
+
+<h4>A few notes:</h4>
+
+As well as genuine reports, we also have a bit of a spam issue: quite a few reports are being submitted that aren\'t relevant for the Fix the Web campaign. While we are trying to filter these out at source, please close such reports with the appropriate label if you find them.
+
+We have also found that some reports are being closed as "fixed" when they haven\'t really been satisfactorily addressed, and of course some website owners will try to fob you off by saying things will be fixed. So please can you make sure you chase up on old reports at least three times - allowing sufficient time between contacts - before finally closing them. We need to increase our percentage of fixed reports!
+
 [dashboard]
 
-Please contact us if you have any difficulties
-Best Wishes and thanks again!
-Fix the Web Team
+Please contact us if you have any difficulties.
 
-You have asked for a reminder every [reminder] days, if you want to change this at  any time please <a href="http://www.fixtheweb.net/user/login">login</a> then go to my account to edit your profile.
+Best wishes and thanks again for your tenacity, patience and hard work!
+The Fix the Web Team
 
-If you have queries please do not reply directly to this email. Use this <a href="http://www.fixtheweb.net/contact">contact form</a> instead. You will be asked to login if you are not already.
+You have asked for a reminder every [reminder] days, if you want to change this at any time please <a href="http://www.fixtheweb.net/user/login">login</a> then go to My Account to edit your profile.
 
-Fix the Web is an innovative project to crowd-source e-accessibility. It is led by Citizens Online and funded by Nominet Trust, with support  from partners such as AbilityNet, Hanona, Nomensa, Bloor Research, RNIB and Coolfields Consulting.
-
-Thanks for your time!
-Fix the Web team.';
+If you have queries please do not reply directly to this email. Login at fixtheweb.net and use our <a href="http://www.fixtheweb.net/contact">contact form</a> instead.
+Fix the Web is an innovative project to crowd-source e-accessibility. It is led by Citizens Online and funded by Nominet Trust, with support from partners such as AbilityNet, Hanona, Nomensa, Bloor Research, RNIB and Coolfields Consulting.';
 
   $export['email_volunteer_nag_email'] = $fe_block_boxes;
 
@@ -308,7 +312,7 @@ Fix the Web is an innovative project to crowd-source e-accessibility. It is led 
   $fe_block_boxes->info = 'Help: Dashboard';
   $fe_block_boxes->format = 'full_html';
   $fe_block_boxes->machine_name = 'help_dashboard';
-  $fe_block_boxes->body = '<p>Do you want a new one?:</p><ul><li><a href="dashboard/waiting">Browse new reports</a></li><li><a href="dashboard/get">Get a new report</a></li></ul><p>Here you can see a list of the current reports assigned to you. Click on the report title to process it. If you have no reports, or you would like a new one click <a href="dashboard/get">get a new report</a>. If you wish to view the reports yet to be assigned to volunteers click <a href="dashboard/waiting">browse new reports</a>.</p>';
+  $fe_block_boxes->body = '<p>If you are looking for a new report to work on, then you can <a href="dashboard/waiting">browse for new reports</a>&nbsp;or take a lucky dip and click to&nbsp;<a href="dashboard/get">get a new report</a>.</p>';
 
   $export['help_dashboard'] = $fe_block_boxes;
 
@@ -443,10 +447,10 @@ We feel it best that only one volunteer is in touch with a web owner at one time
   $fe_block_boxes->info = 'Help: Waiting reports';
   $fe_block_boxes->format = 'filtered_html';
   $fe_block_boxes->machine_name = 'help_waiting_reports';
-  $fe_block_boxes->body = 'This is a list of reports that are waiting to be assigned to volunteers.
-To assign a report to yourself: click on it to view more details, then save the subsequent form.
+  $fe_block_boxes->body = 'These are reports that are waiting to be taken on by a volunteer.
+To take on a report yourself: click on it to view more details, then save the subsequent form.
 
-Please note, if a report gives only "http://" as the address, this means it has come via a twitter report and the URL will need to be entered by the volunteer.';
+Please note, if a report gives only "http://" as the address, this means it has come via twitter, and you will need to enter the correct URL.';
 
   $export['help_waiting_reports'] = $fe_block_boxes;
 
@@ -486,7 +490,12 @@ Please note, if a report gives only "http://" as the address, this means it has 
   $fe_block_boxes->info = 'Intro: Dashboard';
   $fe_block_boxes->format = 'filtered_html';
   $fe_block_boxes->machine_name = 'intro_dashboard';
-  $fe_block_boxes->body = 'Here are your current Fix the Web jobs:';
+  $fe_block_boxes->body = 'Welcome to your Dashboard - the nerve centre for your work as a Fix The Web volunteer.
+
+Your list of current jobs is in the table below - click on the report title to get stuck in.
+
+You can use the tabs above to navigate within your Dashboard, or use these links: <a href="/waiting">reports waiting</a>; <a href="/closed">reports closed</a>; <a href="/all">all reports</a>; .
+We can point you to lots of sources of information and support, so if you are feeling stuck or lost as a volunteer then please visit our support page (LINK) or the dedicated <a href="http://www.accessifyforum.com/forum20/">forum for Fix the Webbers</a>.';
 
   $export['intro_dashboard'] = $fe_block_boxes;
 
