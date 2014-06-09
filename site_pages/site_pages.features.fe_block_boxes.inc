@@ -14,7 +14,9 @@ function site_pages_default_fe_block_boxes() {
   $fe_block_boxes->info = 'Support forum';
   $fe_block_boxes->format = 'filtered_html';
   $fe_block_boxes->machine_name = 'accessify_forum';
-  $fe_block_boxes->body = 'Fix the Web volunteers can get support and guidance at the <a href="http://www.accessifyforum.com/forum20/">Fix the Web forum, hosted on Accessify Forum</a>. This is the place to discuss any dilemmas or difficulties you are facing, and to deepen your understanding of how good web design can create accessible, inclusive web sites.';
+  $fe_block_boxes->body = 'Fix the Web volunteers can get support and guidance at the <a href="http://www.accessifyforum.com/forum20/">Fix the Web forum</a>, hosted on Accessify Forum.
+
+This is the place to discuss any dilemmas or difficulties you are facing, and to deepen your understanding of how good web design can create accessible, inclusive web sites.';
 
   $export['accessify_forum'] = $fe_block_boxes;
 

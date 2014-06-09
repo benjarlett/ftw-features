@@ -350,7 +350,14 @@ function site_pages_views_default_views() {
   $handler->display->display_options['header']['area']['id'] = 'area';
   $handler->display->display_options['header']['area']['table'] = 'views';
   $handler->display->display_options['header']['area']['field'] = 'area';
-  $handler->display->display_options['header']['area']['content'] = 'Filter by company name or domain';
+  $handler->display->display_options['header']['area']['content'] = 'This area of the site is for companies who own websites to display details of the steps they have taken to improve accessibility for all users.
+Companies can also put their contact details here, so that users who wish to discuss an accessibility issue with them can easily contact the right person.
+
+If your company has taken steps to make its website accessible to all, and you want to be listed here, then please get in touch [email link] [info@fixtheweb.net ?]
+
+Use the search/filter form, or the listed links, below to get to the details of the companies who are signed up so far:
+
+Filter by company name or domain:';
   $handler->display->display_options['header']['area']['format'] = 'filtered_html';
   /* Field: Content: Title */
   $handler->display->display_options['fields']['title']['id'] = 'title';
