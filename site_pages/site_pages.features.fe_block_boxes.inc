@@ -11,12 +11,16 @@ function site_pages_default_fe_block_boxes() {
   $export = array();
 
   $fe_block_boxes = new stdClass();
-  $fe_block_boxes->info = 'Support forum';
+  $fe_block_boxes->info = 'More of a general block for vols';
   $fe_block_boxes->format = 'filtered_html';
   $fe_block_boxes->machine_name = 'accessify_forum';
-  $fe_block_boxes->body = 'Fix the Web volunteers can get support and guidance at the <a href="http://www.accessifyforum.com/forum20/">Fix the Web forum</a>, hosted on Accessify Forum.
+  $fe_block_boxes->body = '<em>... we love you!</em>
+Volunteers take up cases with website owners and encourage them to fix any accessibility problems.
 
-This is the place to discuss any dilemmas or difficulties you are facing, and to deepen your understanding of how good web design can create accessible, inclusive web sites.';
+Fix the Web volunteers can get support and guidance at the <a href="http://www.accessifyforum.com/forum20/">Fix the Web forum</a>.
+Click on the <a href="../volunteers">volunteers page</a> or the <a href="../frequently-asked-questions">FAQ page</a> for more...
+
+Fix the Web campaign relies on volunteers as well as reporters... could you be a <a href="../volunteer/signup">volunteer for FtW</a>?';
 
   $export['accessify_forum'] = $fe_block_boxes;
 

@@ -41,7 +41,7 @@ dashboard/report/process/*',
         'weight' => 0,
       ),
     ),
-    'title' => 'Support forum',
+    'title' => 'Volunteers...!',
     'visibility' => 1,
   );
 
