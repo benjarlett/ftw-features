@@ -25,7 +25,7 @@ function site_pages_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '089a06e5-fc34-4f2a-8a89-8dfdb337e119',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
   'body' => array(
     'und' => array(
       0 => array(
@@ -241,7 +241,7 @@ Any queries relating to Citizens Online collection or use of personal informatio
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '28fcfeff-3a7c-4e4c-bd1e-0272ceb79b9c',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
   'body' => array(
     'und' => array(
       0 => array(
@@ -336,7 +336,7 @@ Any queries relating to Citizens Online collection or use of personal informatio
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '3feb6736-b234-45e5-a194-0f324ce44175',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
   'body' => array(
     'und' => array(
       0 => array(
@@ -464,7 +464,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '4487f6e4-efc2-4eba-ba1f-3134487d2e8e',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
   'body' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
@@ -544,7 +544,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '44e15c90-a63c-472d-ae65-913f1359494c',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
   'body' => array(
     'und' => array(
       0 => array(
@@ -638,7 +638,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '51577025-7f14-4dbc-aaa5-2e0210641050',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
   'body' => array(
     'und' => array(
       0 => array(
@@ -730,7 +730,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '57653056-2356-43b8-914c-621a20a82ce1',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
   'body' => array(
     'und' => array(
       0 => array(
@@ -821,7 +821,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '59203c3f-99f7-4afb-b4cc-9e40b5c0e538',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
   'body' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
@@ -901,7 +901,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '7abbdf3c-dc2d-4fec-902f-4857b61b9066',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
   'body' => array(
     'und' => array(
       0 => array(
@@ -993,7 +993,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '92a487df-56b2-4b3e-88c3-c6073482964b',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
   'body' => array(
     'und' => array(
       0 => array(
@@ -1099,19 +1099,21 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'body' => array(
     'und' => array(
       0 => array(
-        'value' => '<p>Fix the Web is a social enterprise [?] project to tackle web accessibility problems.</p><p>The project is&nbsp;<span style="line-height: 1.538em;">led by</span><span style="line-height: 1.538em;">&nbsp;</span><a style="line-height: 1.538em;" href="http://www.citizensonline.org.uk">Citizens Online</a><span style="line-height: 1.538em;">&nbsp;</span><span style="line-height: 1.538em;">and funded by</span><span style="line-height: 1.538em;">&nbsp;</span><a style="line-height: 1.538em;" href="http://www.nominettrust.org.uk/">Nominet Trust</a><span style="line-height: 1.538em;">. A number of</span><span style="line-height: 1.538em;">&nbsp;</span><a style="line-height: 1.538em;" href="#partners">our partners&nbsp;</a><span style="line-height: 1.538em;">are contributing to the development of the project.</span></p><p><span style="line-height: 1.538em;">[Would be good to have a prominent quote here - either &nbsp;fuller version of Stephen Fry quote from frontpage, or quote from Gail, or from a third party such as Nomensa?]</span></p><p>See a&nbsp;<a href="/video">video about the Fix the Web project</a>.</p><h3>Access denied</h3><p>Despite the efforts of experts and campaigners, it is clear many disabled and older people are still faced with inaccessible websites [link to list of accessibility problems on report page?]</p><p>The scale of the problem is huge and we believe there is a need for <strong>culture change</strong> amongst web developers and website owners.</p><h3>Our solution</h3><p>Our solution is to make it simple for the people facing accessibility problems to report them to us, and for our team of volunteers to encourage the site owners to get them fixed.</p><p>Fix the Web volunteers aim to emphasise the real problems disabled users face, and to support website owners to make their sites more accessible by signposting them to the great range of support that is available [links].</p><h3>The power of volunteers</h3><p>Fix the Web relies on an army of volunteer reporters and volunteers. It would not be possible without them.</p><p>You can\'t set up a company to deal with this problem single-handed: the power of volunteers is required! Apart from enabling the project to function on a large scale, the other advantages of our volunteer approach are:</p><ul><li><strong><span style="line-height: 1.538em;">the personal touch:</span></strong></li><ul style="list-style-type: square;"><li><span style="line-height: 1.538em;">Website owners get real and personal feedback on their sites and how they are being used.</span></li></ul><li><strong><span style="line-height: 1.538em;">skill-sharing:</span></strong></li><ul style="list-style-type: square;"><li><span style="line-height: 1.538em;">Volunteers enhance their own knowledge and skills</span></li></ul><li><strong><span style="line-height: 1.538em;">building links:</span></strong></li><ul style="list-style-type: square;"><li><span style="line-height: 1.538em;">disabled reporters can work closely with volunteers, reducing any sense of isolation, and providing for the exchange of knowledge and experiences.</span></li></ul></ul><h3>Fixing for the future</h3><p>In the UK alone, 6 million web users are excluded to some extent from 80% of websites [source?].&nbsp;Over 30% of a blind person\'s online time is wasted dealing with accessibility issues. [source?]</p><p>We want to get <strong>250,000 websites</strong>&nbsp;reported over the next 2 years [add in updated timescale - how realistic?]. This will need about <strong>10,000 volunteers</strong> signed up and many hundreds of active reporters.</p><p><em>We believe this will change the culture of the Web.</em></p><p>The story of Fix the Web starts in the United Kingdom, but as our influence and vision for the web grows, the project will reach many more countries across the planet.</p>',
+        'value' => '<p>Fix the Web is a social enterprise [?] project to tackle web accessibility problems.</p><p>The project is&nbsp;<span style="line-height: 1.538em;">led by</span><span style="line-height: 1.538em;">&nbsp;</span><a style="line-height: 1.538em;" href="http://www.citizensonline.org.uk">Citizens Online</a><span style="line-height: 1.538em;">&nbsp;</span><span style="line-height: 1.538em;">and funded by</span><span style="line-height: 1.538em;">&nbsp;</span><a style="line-height: 1.538em;" href="http://www.nominettrust.org.uk/">Nominet Trust</a><span style="line-height: 1.538em;">. A number of</span><span style="line-height: 1.538em;">&nbsp;</span><a style="line-height: 1.538em;" href="#partners">our partners&nbsp;</a><span style="line-height: 1.538em;">are contributing to the development of the project.</span></p><p><span style="line-height: 1.538em;">[Would be good to have a prominent quote here - either &nbsp;fuller version of Stephen Fry quote from frontpage, or quote from Gail, or from a third party such as Nomensa?]</span></p><p>See a&nbsp;<a href="/video">video about the Fix the Web project</a>.</p><h3><img style="float: right;" src="/sites/default/files/access-denied.png" alt="" width="100" height="100">Access denied</h3><p>Despite the efforts of experts and campaigners, it is clear many disabled and older people are still faced with inaccessible websites [link to list of accessibility problems on report page?]</p><p>The scale of the problem is huge and we believe there is a need for <strong>culture change</strong> amongst web developers and website owners.</p><h3><img style="float: right;" src="/sites/default/files/solution.png" alt="" width="100" height="100"></h3><h3>Our solution</h3><p>Our solution is to make it simple for the people facing accessibility problems to report them to us, and for our team of volunteers to encourage the site owners to get them fixed.</p><p>Fix the Web volunteers aim to emphasise the real problems disabled users face, and to support website owners to make their sites more accessible by signposting them to the great range of support that is available [links].</p><h3><img style="float: right;" src="/sites/default/files/volunteer.png" alt="" width="100" height="100"></h3><h3>The power of volunteers</h3><p>Fix the Web relies on an army of volunteer reporters and volunteers. It would not be possible without them.</p><p>You can\'t set up a company to deal with this problem single-handed: the power of volunteers is required! Apart from enabling the project to function on a large scale, the other advantages of our volunteer approach are:</p><ul><li><strong><span style="line-height: 1.538em;">the personal touch:</span></strong></li><ul style="list-style-type: square;"><li><span style="line-height: 1.538em;">Website owners get real and personal feedback on their sites and how they are being used.</span></li></ul><li><strong><span style="line-height: 1.538em;">skill-sharing:</span></strong></li><ul style="list-style-type: square;"><li><span style="line-height: 1.538em;">Volunteers enhance their own knowledge and skills</span></li></ul><li><strong><span style="line-height: 1.538em;">building links:</span></strong></li><ul style="list-style-type: square;"><li><span style="line-height: 1.538em;">disabled reporters can work closely with volunteers, reducing any sense of isolation, and providing for the exchange of knowledge and experiences.</span></li></ul></ul><p><img style="float: right;" src="/sites/default/files/fix.png" alt="" width="100" height="100"></p><h3>Fixing for the future</h3><p>In the UK alone, 6 million web users are excluded to some extent from 80% of websites [source?].&nbsp;Over 30% of a blind person\'s online time is wasted dealing with accessibility issues. [source?]</p><p>We want to get <strong>250,000 websites</strong>&nbsp;reported over the next 2 years [add in updated timescale - how realistic?]. This will need about <strong>10,000 volunteers</strong> signed up and many hundreds of active reporters.</p><p><em>We believe this will change the culture of the Web.</em></p><p>The story of Fix the Web starts in the United Kingdom, but as our influence and vision for the web grows, the project will reach many more countries across the planet.</p>',
         'summary' => '',
         'format' => 'full_html',
         'safe_value' => '<p>Fix the Web is a social enterprise [?] project to tackle web accessibility problems.</p>
 <p>The project is <span style="line-height: 1.538em;">led by</span><span style="line-height: 1.538em;"> </span><a style="line-height: 1.538em;" href="http://www.citizensonline.org.uk">Citizens Online</a><span style="line-height: 1.538em;"> </span><span style="line-height: 1.538em;">and funded by</span><span style="line-height: 1.538em;"> </span><a style="line-height: 1.538em;" href="http://www.nominettrust.org.uk/">Nominet Trust</a><span style="line-height: 1.538em;">. A number of</span><span style="line-height: 1.538em;"> </span><a style="line-height: 1.538em;" href="#partners">our partners </a><span style="line-height: 1.538em;">are contributing to the development of the project.</span></p>
 <p><span style="line-height: 1.538em;">[Would be good to have a prominent quote here - either  fuller version of Stephen Fry quote from frontpage, or quote from Gail, or from a third party such as Nomensa?]</span></p>
 <p>See a <a href="/video">video about the Fix the Web project</a>.</p>
-<h3>Access denied</h3>
+<h3><img style="float: right;" src="/sites/default/files/access-denied.png" alt="" width="100" height="100" />Access denied</h3>
 <p>Despite the efforts of experts and campaigners, it is clear many disabled and older people are still faced with inaccessible websites [link to list of accessibility problems on report page?]</p>
 <p>The scale of the problem is huge and we believe there is a need for <strong>culture change</strong> amongst web developers and website owners.</p>
+<h3><img style="float: right;" src="/sites/default/files/solution.png" alt="" width="100" height="100" /></h3>
 <h3>Our solution</h3>
 <p>Our solution is to make it simple for the people facing accessibility problems to report them to us, and for our team of volunteers to encourage the site owners to get them fixed.</p>
 <p>Fix the Web volunteers aim to emphasise the real problems disabled users face, and to support website owners to make their sites more accessible by signposting them to the great range of support that is available [links].</p>
+<h3><img style="float: right;" src="/sites/default/files/volunteer.png" alt="" width="100" height="100" /></h3>
 <h3>The power of volunteers</h3>
 <p>Fix the Web relies on an army of volunteer reporters and volunteers. It would not be possible without them.</p>
 <p>You can\'t set up a company to deal with this problem single-handed: the power of volunteers is required! Apart from enabling the project to function on a large scale, the other advantages of our volunteer approach are:</p>
@@ -1121,7 +1123,8 @@ Internet Explorer 4.5: Access keys are not supported</p>
 <ul style="list-style-type: square;"><li><span style="line-height: 1.538em;">Volunteers enhance their own knowledge and skills</span></li>
 </ul><li><strong><span style="line-height: 1.538em;">building links:</span></strong></li>
 <ul style="list-style-type: square;"><li><span style="line-height: 1.538em;">disabled reporters can work closely with volunteers, reducing any sense of isolation, and providing for the exchange of knowledge and experiences.</span></li>
-</ul></ul><h3>Fixing for the future</h3>
+</ul></ul><p><img style="float: right;" src="/sites/default/files/fix.png" alt="" width="100" height="100" /></p>
+<h3>Fixing for the future</h3>
 <p>In the UK alone, 6 million web users are excluded to some extent from 80% of websites [source?]. Over 30% of a blind person\'s online time is wasted dealing with accessibility issues. [source?]</p>
 <p>We want to get <strong>250,000 websites</strong> reported over the next 2 years [add in updated timescale - how realistic?]. This will need about <strong>10,000 volunteers</strong> signed up and many hundreds of active reporters.</p>
 <p><em>We believe this will change the culture of the Web.</em></p>
@@ -1471,7 +1474,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '9f590da5-3f15-4ea5-9abc-8dab7b892235',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
   'body' => array(
     'und' => array(
       0 => array(
@@ -1563,7 +1566,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'ba94ab18-75d1-430b-9541-6dd8ef7e907f',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
   'body' => array(
     'und' => array(
       0 => array(
@@ -1684,7 +1687,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'bc5ed865-b101-4f94-8a82-024bbffdb048',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
   'body' => array(
     'und' => array(
       0 => array(
@@ -1784,7 +1787,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'c172319e-911d-4698-a0d4-845114af8926',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
   'body' => array(
     'und' => array(
       0 => array(
@@ -1882,7 +1885,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'c1f1d9a8-9a89-4a29-9625-212ed7271b7a',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
   'body' => array(
     'und' => array(
       0 => array(
@@ -2183,7 +2186,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'cbad1478-3d48-4d25-a6c5-2fd519cc644b',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
   'body' => array(
     'und' => array(
       0 => array(
@@ -2274,7 +2277,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'ccffb642-b567-4f7b-8f98-1054aeb5177f',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
   'body' => array(
     'und' => array(
       0 => array(
@@ -2453,7 +2456,7 @@ Internet Explorer 4.5: Access keys are not supported</p>
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'f13a0eab-c338-448e-994a-c21a28a6bcaf',
-  'revision_uid' => 0,
+  'revision_uid' => 1,
   'body' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
