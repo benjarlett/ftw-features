@@ -508,6 +508,14 @@ We can point you to lots of sources of information and support, so if you are fe
   $export['intro_delete_account'] = $fe_block_boxes;
 
   $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'Intro: Downgrade reporter';
+  $fe_block_boxes->format = 'filtered_html';
+  $fe_block_boxes->machine_name = 'intro_downgrade_reporter';
+  $fe_block_boxes->body = 'In order to change your account from being both a volunteer and reporter to just a volunteer you may use this form. Are you willing to continue to be contacted about reports that you have already submitted?';
+
+  $export['intro_downgrade_reporter'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
   $fe_block_boxes->info = 'Intro: Downgrade volunteer';
   $fe_block_boxes->format = 'filtered_html';
   $fe_block_boxes->machine_name = 'intro_downgrade_volunteer';

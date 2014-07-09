@@ -337,7 +337,7 @@ function site_pages_views_default_views() {
 
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
-  $handler->display->display_options['title'] = 'Companies area';
+  $handler->display->display_options['title'] = 'Companies and Organisations area';
   $handler->display->display_options['use_more_always'] = FALSE;
   $handler->display->display_options['access']['type'] = 'perm';
   $handler->display->display_options['cache']['type'] = 'none';
@@ -346,19 +346,6 @@ function site_pages_views_default_views() {
   $handler->display->display_options['pager']['type'] = 'none';
   $handler->display->display_options['style_plugin'] = 'list';
   $handler->display->display_options['row_plugin'] = 'fields';
-  /* Header: Global: Text area */
-  $handler->display->display_options['header']['area']['id'] = 'area';
-  $handler->display->display_options['header']['area']['table'] = 'views';
-  $handler->display->display_options['header']['area']['field'] = 'area';
-  $handler->display->display_options['header']['area']['content'] = 'This area of the site is for companies who own websites to display details of the steps they have taken to improve accessibility for all users.
-Companies can also put their contact details here, so that users who wish to discuss an accessibility issue with them can easily contact the right person.
-
-If your company has taken steps to make its website accessible to all, and you want to be listed here, then please <a href="../contact">get in touch</a>.
-
-Use the search/filter form, or the listed links, below to get to the details of the companies who are signed up so far:
-
-Filter by company name or domain:';
-  $handler->display->display_options['header']['area']['format'] = 'filtered_html';
   /* Field: Content: Title */
   $handler->display->display_options['fields']['title']['id'] = 'title';
   $handler->display->display_options['fields']['title']['table'] = 'node';
@@ -428,7 +415,7 @@ Filter by company name or domain:';
 
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'page');
-  $handler->display->display_options['path'] = 'companies-area';
+  $handler->display->display_options['path'] = 'companies-organisations';
   $handler->display->display_options['menu']['type'] = 'normal';
   $handler->display->display_options['menu']['title'] = 'Companies';
   $handler->display->display_options['menu']['name'] = 'main-menu';

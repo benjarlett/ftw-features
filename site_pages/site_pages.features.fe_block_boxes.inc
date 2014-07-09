@@ -25,6 +25,46 @@ Fix the Web campaign relies on volunteers as well as reporters... could you be a
   $export['accessify_forum'] = $fe_block_boxes;
 
   $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'Badge sharing block';
+  $fe_block_boxes->format = 'filtered_html';
+  $fe_block_boxes->machine_name = 'badges_block';
+  $fe_block_boxes->body = '<a href="#">Collect and share badges to help fix the web!</a>';
+
+  $export['badges_block'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'Case studies';
+  $fe_block_boxes->format = 'filtered_html';
+  $fe_block_boxes->machine_name = 'case_studies';
+  $fe_block_boxes->body = 'Read <a href="case-studies">a sample of our sucesses</a>.';
+
+  $export['case_studies'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'Click 2 fix';
+  $fe_block_boxes->format = 'filtered_html';
+  $fe_block_boxes->machine_name = 'click2fix';
+  $fe_block_boxes->body = '<a href="click2fix">Easy ways to report while your browse</a>';
+
+  $export['click2fix'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'Companies area';
+  $fe_block_boxes->format = 'filtered_html';
+  $fe_block_boxes->machine_name = 'companies_area';
+  $fe_block_boxes->body = '<a href="companies">Information and registration for companies</a>';
+
+  $export['companies_area'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'Current count';
+  $fe_block_boxes->format = 'full_html';
+  $fe_block_boxes->machine_name = 'current_count';
+  $fe_block_boxes->body = '<dl><dt class="count-int">664</dt><dd class="count-def"><a href="stats#reporters">Reporters</a></dd><dt class="count-int">833</dt><dd class="count-def"><a href="stats#volunteers">Volunteers</a></dd><dt class="count-int">1125</dt><dd class="count-def"><a href="stats#websites-reported">Websites reported</a></dd><dt class="count-int">2172</dt><dd class="count-def"><a href="stats#tweets">Tweets</a></dd><dt class="count-int">268</dt><dd class="count-def"><a href="stats#reports-in-progress">Reports in progress</a></dd><dt class="count-int">550</dt><dd class="count-def"><a href="stats#owners-informed">Owners informed</a></dd><dt class="count-int">224</dt><dd class="count-def"><a href="stats#owners-acknowledged">Owners acknowledged</a></dd><dt class="count-int">148</dt><dd class="count-def"><a href="stats#owners-fixed-site">Owners fixed site</a></dd></dl><dl></dl>';
+
+  $export['current_count'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
   $fe_block_boxes->info = 'Front page intro block';
   $fe_block_boxes->format = 'php_code';
   $fe_block_boxes->machine_name = 'front_intro';
@@ -110,6 +150,22 @@ Fix the Web campaign relies on volunteers as well as reporters... could you be a
   $fe_block_boxes->body = '<p>If you are having trouble using our website, or have some suggestions for us, or have a funding idea to help sustain this project (or any other reason come to that), please get in touch using the contact form below:</p>';
 
   $export['intro_contact_form'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'Report via email';
+  $fe_block_boxes->format = 'filtered_html';
+  $fe_block_boxes->machine_name = 'report_email';
+  $fe_block_boxes->body = 'Mail <a href="mailto:post@fixtheweb.net">post@fixtheweb.net</a> putting the URL in the subject header and information about the problem in the body.';
+
+  $export['report_email'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'Training link';
+  $fe_block_boxes->format = 'filtered_html';
+  $fe_block_boxes->machine_name = 'training';
+  $fe_block_boxes->body = 'Find out more about <a href="training#accessibility">accessibility</a> and <a href="training#ftw">how to use fix the web</a>';
+
+  $export['training'] = $fe_block_boxes;
 
   $fe_block_boxes = new stdClass();
   $fe_block_boxes->info = 'Report to twitter using hashtags';

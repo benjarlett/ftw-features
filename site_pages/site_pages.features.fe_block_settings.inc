@@ -45,6 +45,166 @@ dashboard/report/process/*',
     'visibility' => 1,
   );
 
+  $export['block-badges_block'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'badges_block',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'ftw' => array(
+        'region' => 'sidebar_second',
+        'status' => 1,
+        'theme' => 'ftw',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Collect badges',
+    'visibility' => 1,
+  );
+
+  $export['block-case_studies'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'case_studies',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'ftw' => array(
+        'region' => 'sidebar_second',
+        'status' => 1,
+        'theme' => 'ftw',
+        'weight' => -48,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Case studies',
+    'visibility' => 1,
+  );
+
+  $export['block-click2fix'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'click2fix',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'ftw' => array(
+        'region' => 'sidebar_second',
+        'status' => 1,
+        'theme' => 'ftw',
+        'weight' => -52,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Click 2 fix',
+    'visibility' => 1,
+  );
+
+  $export['block-companies_area'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'companies_area',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'ftw' => array(
+        'region' => 'sidebar_second',
+        'status' => 1,
+        'theme' => 'ftw',
+        'weight' => -49,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Companies area',
+    'visibility' => 1,
+  );
+
+  $export['block-current_count'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'current_count',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'ftw' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'ftw',
+        'weight' => -52,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Current count',
+    'visibility' => 1,
+  );
+
   $export['block-front_intro'] = array(
     'cache' => -1,
     'custom' => 0,
@@ -107,6 +267,102 @@ dashboard/report/process/*',
     ),
     'title' => '',
     'visibility' => 0,
+  );
+
+  $export['block-intro_contact_form'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'intro_contact_form',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => 'contact',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'ftw' => array(
+        'region' => 'intro_content',
+        'status' => 1,
+        'theme' => 'ftw',
+        'weight' => -47,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 1,
+  );
+
+  $export['block-report_email'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'report_email',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'ftw' => array(
+        'region' => 'sidebar_second',
+        'status' => 1,
+        'theme' => 'ftw',
+        'weight' => -51,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Report via email',
+    'visibility' => 1,
+  );
+
+  $export['block-training'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'training',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'ftw' => array(
+        'region' => 'sidebar_second',
+        'status' => 1,
+        'theme' => 'ftw',
+        'weight' => -47,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Training Area',
+    'visibility' => 1,
   );
 
   $export['block-tweet_report'] = array(

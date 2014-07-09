@@ -1087,7 +1087,7 @@ function ftw_text_blocks_default_fe_block_settings() {
         'region' => 'intro_content',
         'status' => 1,
         'theme' => 'ftw',
-        'weight' => -24,
+        'weight' => -52,
       ),
       'seven' => array(
         'region' => '',
@@ -1119,7 +1119,7 @@ function ftw_text_blocks_default_fe_block_settings() {
         'region' => 'intro_content',
         'status' => 1,
         'theme' => 'ftw',
-        'weight' => 0,
+        'weight' => -49,
       ),
       'seven' => array(
         'region' => '',
@@ -1151,7 +1151,7 @@ function ftw_text_blocks_default_fe_block_settings() {
         'region' => 'intro_content',
         'status' => 1,
         'theme' => 'ftw',
-        'weight' => 0,
+        'weight' => -48,
       ),
       'seven' => array(
         'region' => '',
@@ -1183,7 +1183,7 @@ function ftw_text_blocks_default_fe_block_settings() {
         'region' => 'intro_content',
         'status' => 1,
         'theme' => 'ftw',
-        'weight' => -25,
+        'weight' => -53,
       ),
       'seven' => array(
         'region' => '',
@@ -1215,7 +1215,39 @@ function ftw_text_blocks_default_fe_block_settings() {
         'region' => 'intro_content',
         'status' => 1,
         'theme' => 'ftw',
+        'weight' => -46,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
         'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 1,
+  );
+
+  $export['block-intro_downgrade_reporter'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'intro_downgrade_reporter',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => 'downgrade/reporter',
+    'roles' => array(),
+    'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
+      'ftw' => array(
+        'region' => 'intro_content',
+        'status' => 1,
+        'theme' => 'ftw',
+        'weight' => -39,
       ),
       'seven' => array(
         'region' => '',
@@ -1234,7 +1266,7 @@ function ftw_text_blocks_default_fe_block_settings() {
     'machine_name' => 'intro_downgrade_volunteer',
     'module' => 'block',
     'node_types' => array(),
-    'pages' => 'manageroles/volunteer/remove',
+    'pages' => 'downgrade/volunteer',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -1247,7 +1279,7 @@ function ftw_text_blocks_default_fe_block_settings() {
         'region' => 'intro_content',
         'status' => 1,
         'theme' => 'ftw',
-        'weight' => 0,
+        'weight' => -38,
       ),
       'seven' => array(
         'region' => '',
@@ -1279,7 +1311,7 @@ function ftw_text_blocks_default_fe_block_settings() {
         'region' => 'intro_content',
         'status' => 1,
         'theme' => 'ftw',
-        'weight' => 0,
+        'weight' => -45,
       ),
       'seven' => array(
         'region' => '',
@@ -1311,7 +1343,7 @@ function ftw_text_blocks_default_fe_block_settings() {
         'region' => 'intro_content',
         'status' => 1,
         'theme' => 'ftw',
-        'weight' => 0,
+        'weight' => -42,
       ),
       'seven' => array(
         'region' => '',
@@ -1343,7 +1375,7 @@ function ftw_text_blocks_default_fe_block_settings() {
         'region' => 'intro_content',
         'status' => 1,
         'theme' => 'ftw',
-        'weight' => 0,
+        'weight' => -44,
       ),
       'seven' => array(
         'region' => '',
@@ -1375,7 +1407,7 @@ function ftw_text_blocks_default_fe_block_settings() {
         'region' => 'intro_content',
         'status' => 1,
         'theme' => 'ftw',
-        'weight' => 0,
+        'weight' => -43,
       ),
       'seven' => array(
         'region' => '',
@@ -1407,7 +1439,7 @@ function ftw_text_blocks_default_fe_block_settings() {
         'region' => 'intro_content',
         'status' => 1,
         'theme' => 'ftw',
-        'weight' => -23,
+        'weight' => -51,
       ),
       'seven' => array(
         'region' => '',
@@ -1439,7 +1471,7 @@ function ftw_text_blocks_default_fe_block_settings() {
         'region' => 'intro_content',
         'status' => 1,
         'theme' => 'ftw',
-        'weight' => 0,
+        'weight' => -41,
       ),
       'seven' => array(
         'region' => '',
@@ -1471,7 +1503,7 @@ function ftw_text_blocks_default_fe_block_settings() {
         'region' => 'intro_content',
         'status' => 1,
         'theme' => 'ftw',
-        'weight' => 0,
+        'weight' => -40,
       ),
       'seven' => array(
         'region' => '',
@@ -1503,7 +1535,7 @@ function ftw_text_blocks_default_fe_block_settings() {
         'region' => 'intro_content',
         'status' => 1,
         'theme' => 'ftw',
-        'weight' => 0,
+        'weight' => -37,
       ),
       'seven' => array(
         'region' => '',
@@ -1535,7 +1567,7 @@ function ftw_text_blocks_default_fe_block_settings() {
         'region' => 'intro_content',
         'status' => 1,
         'theme' => 'ftw',
-        'weight' => 0,
+        'weight' => -50,
       ),
       'seven' => array(
         'region' => '',
